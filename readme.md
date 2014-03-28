@@ -1,3 +1,8 @@
+# Shadowbane DB - JSON-formatted race, class, and rune data for Shadowbane
+
+## Notes
+
+### General Character Info
 Plain base stats/Plain max stats
 Str: 35/100
 Dex: 35/100
@@ -8,11 +13,7 @@ Spirit: 35/100
 Starting Stat Points: 55
 Total Stat Points: 205
 
-Fighter
-Healer
-Mage
-Rogue
-
+### Races
 Aelfborn
 Aracoix
 Centaur
@@ -26,6 +27,13 @@ Nephilim
 Shades
 Vampire
 
+### Base Classes
+Fighter
+Healer
+Mage
+Rogue
+
+### Prestige Classes
 Assassin
 Barbarian
 Bard
@@ -49,65 +57,7 @@ Warlock
 Warrior
 Wizard
 
-Animator
-Archer
-Archmage
-Artillerist
-Battle Magus
-Belgosch
-Berserker
-Black Mask
-Blade Master
-Blade Weaver
-Blood Horn
-Blood Prophet
-Bounty Hunter
-Clanwarden
-Commander
-Conjurer
-Dark Knight
-Darksworn
-Drannok
-Enchanter
-Forge Master
-Giant Killer
-Gladiator
-Gorgoi
-Huntsman
-Knight
-Prospector
-Rat Catcher
-Rune Caster
-Saboteur
-Sanctifier
-Sapper
-Savant
-Shroudborne
-Skydancer
-Storm Lord
-Strigoi
-Summoner
-Sun Dancer
-Thrall
-Traveler
-Undead Hunter
-Valkyr
-Werebear
-Wererat
-Werewolf
-Wyrmslayer
-
-Strength, Intelligence, Dexterity, Constitution, Spirit
-
-Enhanced (+5)
-Exceptional (+10)
-Amazing (+15)
-Incredible (+20)
-Great (+25)
-Heroic (+30)
-Legendary (+35)
-of the Gods (+40)
-
+### Starting Traits
 Agile
 Ambidexterity
 Blacksmith's Apprentice
@@ -194,6 +144,68 @@ Witch Sight
 Wizard's Apprentice
 Woodsman
 
+### Discipline Runes
+Animator
+Archer
+Archmage
+Artillerist
+Battle Magus
+Belgosch
+Berserker
+Black Mask
+Blade Master
+Blade Weaver
+Blood Horn
+Blood Prophet
+Bounty Hunter
+Clanwarden
+Commander
+Conjurer
+Dark Knight
+Darksworn
+Drannok
+Enchanter
+Forge Master
+Giant Killer
+Gladiator
+Gorgoi
+Huntsman
+Knight
+Prospector
+Rat Catcher
+Rune Caster
+Saboteur
+Sanctifier
+Sapper
+Savant
+Shroudborne
+Skydancer
+Storm Lord
+Strigoi
+Summoner
+Sun Dancer
+Thrall
+Traveler
+Undead Hunter
+Valkyr
+Werebear
+Wererat
+Werewolf
+Wyrmslayer
+
+### Stat Runes
+Strength, Intelligence, Dexterity, Constitution, Spirit
+
+Enhanced (+5)
+Exceptional (+10)
+Amazing (+15)
+Incredible (+20)
+Great (+25)
+Heroic (+30)
+Legendary (+35)
+of the Gods (+40)
+
+### Mastery Runes
 Master of Axes
 Master of Daggers
 Master of Great Axes
@@ -206,7 +218,7 @@ Master of Staves
 Master of Swords
 Master of Throwing
 
-Training Points:
+### Training Points
 Human Fighter: 646
 Non-human Fighter: 588
 
