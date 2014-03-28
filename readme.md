@@ -1,6 +1,5 @@
-# Shadowbane DB - JSON-formatted race, class, and rune data for Shadowbane
-
-## Notes
+# Shadowbane DB
+## JSON-formatted race, class, and rune data for Shadowbane
 
 ### General Character Info
 Plain base stats/Plain max stats
