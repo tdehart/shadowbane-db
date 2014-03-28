@@ -1,0 +1,27 @@
+{
+    "races": [{
+        "name": "Aelfborn",
+        "cost": 5,
+        "healthBonus": 0,
+        "manaBonus": 30,
+        "staminaBonus": 30,
+        "grantedBaseStr": 0,
+        "grantedMaxStr": -5,
+        "grantedBaseDex": 0,
+        "grantedMaxDex": 20,
+        "grantedBaseCon": 0,
+        "grantedMaxCon": -5,
+        "grantedBaseInt": 5,
+        "grantedMaxInt": 5,
+        "grantedBaseSpirit": 0,
+        "grantedMaxSpirit": -15,
+        "abilities": [{
+            "name": "Wildkin's Chase",
+            "description": "Personal Snare Immunity",
+            "trainable": false
+        }]
+    }, {
+        "name": "Centaur",
+        "cost": 10
+    }]
+}

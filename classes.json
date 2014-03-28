@@ -1,0 +1,31 @@
+{
+    "baseClasses": [{
+        "name": "Fighter",
+        "grantedBaseStr": 5,
+        "grantedBaseDex": 0,
+        "grantedBaseCon": 5,
+        "grantedBaseInt": -10,
+        "grantedBaseSpirit": 0
+    }, {
+        "name": "Healer",
+        "grantedBaseStr": 0,
+        "grantedBaseDex": -10,
+        "grantedBaseCon": 5,
+        "grantedBaseInt": 0,
+        "grantedBaseSpirit": 5
+    }, {
+        "name": "Rogue",
+        "grantedBaseStr": 0,
+        "grantedBaseDex": 5,
+        "grantedBaseCon": 0,
+        "grantedBaseInt": 5,
+        "grantedBaseSpirit": -10
+    }, {
+        "name": "Mage",
+        "grantedBaseStr": -10,
+        "grantedBaseDex": 0,
+        "grantedBaseCon": 0,
+        "grantedBaseInt": 5,
+        "grantedBaseSpirit": 5
+    }]
+}

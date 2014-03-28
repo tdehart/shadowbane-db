@@ -1,0 +1,154 @@
+{
+    "startingTraits": [{
+        "name": "Blacksmith's Apprentice",
+        "cost": 8,
+        "category": "apprentice",
+        "requiredStr": 50,
+        "requiredDex": 0,
+        "requiredCon": 0,
+        "requiredInt": 0,
+        "requiredSpirit": 0,
+        "grantedBaseStr": 10,
+        "grantedMaxStr": 10,
+        "grantedBaseDex": -5,
+        "grantedMaxDex": -5,
+        "grantedBaseCon": 0,
+        "grantedMaxCon": 0,
+        "grantedBaseInt": -5,
+        "grantedMaxInt": -5,
+        "grantedBaseSpirit": 0,
+        "grantedMaxSpirit": 0
+    }, {
+        "name": "Brawler",
+        "cost": 4,
+        "category": "background"
+    }, {
+        "name": "Born in the Country",
+        "cost": 4,
+        "category": "childhood",
+        "prohibitedRaces": {
+            "aelfborn": false,
+            "aracoix": false,
+            "centaur": false,
+            "dwarf": true,
+            "elf": false,
+            "halfGiant": false,
+            "human": false,
+            "irekei": true,
+            "minotaur": false,
+            "nephilim": false,
+            "shade": false,
+            "vampire": false
+        }
+    }, {
+        "name": "Knight's Squire",
+        "cost": 4,
+        "category": "mentor",
+        "requiredClasses": {
+            "fighter": true,
+            "mage": false,
+            "rogue": true,
+            "healer": false
+        }
+    }, {
+        "name": "Increased Constitution",
+        "cost": 2,
+        "category": null,
+        "grantedBaseCon": 1,
+        "grantedMaxCon": 3
+    }, {
+        "name": "Ambidexterity",
+        "cost": 12,
+        "category": null,
+        "requiredDex": 50
+    }, {
+        "name": "Giant's Blood",
+        "cost": 14,
+        "category": null,
+        "requiredStr": 50,
+        "requiredDex": 0,
+        "requiredCon": 40,
+        "requiredInt": 0,
+        "requiredSpirit": 0,
+        "grantedBaseStr": 10,
+        "grantedMaxStr": 15,
+        "grantedBaseDex": 0,
+        "grantedMaxDex": 0,
+        "grantedBaseCon": 5,
+        "grantedMaxCon": 10,
+        "grantedBaseInt": -5,
+        "grantedMaxInt": -10,
+        "grantedBaseSpirit": 0,
+        "grantedMaxSpirit": 0
+    }, {
+        "name": "Born of the Ethyri",
+        "cost": 10,
+        "category": "subrace",
+        "requiredRace": "human",
+        "grantedBaseSpirit": 5,
+        "grantedMaxSpirit": 10
+    }],
+    "statRunes": [{
+        "name": "Intelligence of the Gods",
+        "cost": 15,
+        "category": "intelligence",
+        "requiredInt": 120,
+        "grantedBaseInt": 10,
+        "grantedMaxInt": 40
+    }, {
+        "name": "Legendary Intelligence"
+    }],
+    "disciplines": [{
+        "name": "Animator",
+        "cost": 0,
+        "availableRaces": {
+            "aelfborn": true,
+            "aracoix": false,
+            "centaur": false,
+            "dwarf": true,
+            "elf": true,
+            "halfGiant": false,
+            "human": true,
+            "irekei": false,
+            "minotaur": false,
+            "nephilim": false,
+            "shade": true,
+            "vampire": false
+        },
+        "availableClasses": {
+            "assassin": false,
+            "barbarian": false,
+            "bard": true,
+            "channeler": false,
+            "confessor": true,
+            "crusader": false,
+            "doomsayer": false,
+            "druid": false,
+            "fury": true,
+            "huntress": false,
+            "necromancer": false,
+            "nightstalker": false,
+            "prelate": true,
+            "priest": true,
+            "ranger": false,
+            "scout": false,
+            "sentinel": false,
+            "templar": false,
+            "thief": false,
+            "warlock": false,
+            "warrior": false,
+            "wizard": false
+        }
+    }, {
+        "name": "Archer"
+    }],
+    "masteryRunes": [{
+        "name": "Master of Axes",
+        "cost": 5,
+        "availableClasses": {
+            "crusader": true
+        }
+    }, {
+        "name": "Master of Daggers",
+    }]
+}
