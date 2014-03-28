@@ -2,15 +2,15 @@
 ### JSON-formatted race, class, and rune data for Shadowbane
 
 #### General Character Info
-Plain base stats/Plain max stats
-* Str: 35/100
-* Dex: 35/100
-* Con: 35/100
-* Int: 35/100
-* Spirit: 35/100
+Plain base stats/Plain max stats<br/>
+Str: 35/100<br/>
+Dex: 35/100<br/>
+Con: 35/100<br/>
+Int: 35/100<br/>
+Spirit: 35/100
 
-* Starting Stat Points: 55
-* Total Stat Points: 205
+Starting Stat Points: 55<br/>
+Total Stat Points: 205
 
 #### Races
 * Aelfborn
@@ -220,12 +220,9 @@ Strength, Intelligence, Dexterity, Constitution, Spirit
 #### Training Points
 * Human Fighter: 646
 * Non-human Fighter: 588
-
 * Human Healer: 704
 * Non-human Healer: 646
-
 * Human Mage: 704
 * Non-human Mage: 646
-
 * Human Rogue: 646
 * Non-human Rogue: 588
