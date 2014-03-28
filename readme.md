@@ -1,7 +1,7 @@
 # Shadowbane DB
-## JSON-formatted race, class, and rune data for Shadowbane
+### JSON-formatted race, class, and rune data for Shadowbane
 
-### General Character Info
+#### General Character Info
 Plain base stats/Plain max stats
 Str: 35/100
 Dex: 35/100
@@ -12,7 +12,7 @@ Spirit: 35/100
 Starting Stat Points: 55
 Total Stat Points: 205
 
-### Races
+#### Races
 Aelfborn
 Aracoix
 Centaur
@@ -26,13 +26,13 @@ Nephilim
 Shades
 Vampire
 
-### Base Classes
+#### Base Classes
 Fighter
 Healer
 Mage
 Rogue
 
-### Prestige Classes
+#### Prestige Classes
 Assassin
 Barbarian
 Bard
@@ -56,7 +56,7 @@ Warlock
 Warrior
 Wizard
 
-### Starting Traits
+#### Starting Traits
 Agile
 Ambidexterity
 Blacksmith's Apprentice
@@ -143,7 +143,7 @@ Witch Sight
 Wizard's Apprentice
 Woodsman
 
-### Discipline Runes
+#### Discipline Runes
 Animator
 Archer
 Archmage
@@ -192,7 +192,7 @@ Wererat
 Werewolf
 Wyrmslayer
 
-### Stat Runes
+#### Stat Runes
 Strength, Intelligence, Dexterity, Constitution, Spirit
 
 Enhanced (+5)
@@ -204,7 +204,7 @@ Heroic (+30)
 Legendary (+35)
 of the Gods (+40)
 
-### Mastery Runes
+#### Mastery Runes
 Master of Axes
 Master of Daggers
 Master of Great Axes
@@ -217,7 +217,7 @@ Master of Staves
 Master of Swords
 Master of Throwing
 
-### Training Points
+#### Training Points
 Human Fighter: 646
 Non-human Fighter: 588
 
