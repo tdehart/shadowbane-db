@@ -10,51 +10,65 @@
         "name": "Ambidexterity",
         "cost": 12,
         "requiredDex": 50,
-        "requiredClass": "fighter"
+        "requiredClasses": {
+            "fighter": true
+        }
     }, {        
         "name": "Blacksmith's Apprentice",
         "cost": 8,
         "category": "apprentice",
         "requiredStr": 50,
-        "requiredDex": 0,
-        "requiredCon": 0,
-        "requiredInt": 0,
-        "requiredSpirit": 0,
         "grantedBaseStr": 10,
         "grantedMaxStr": 10,
         "grantedBaseDex": -5,
         "grantedMaxDex": -5,
-        "grantedBaseCon": 0,
-        "grantedMaxCon": 0,
         "grantedBaseInt": -5,
-        "grantedMaxInt": -5,
-        "grantedBaseSpirit": 0,
-        "grantedMaxSpirit": 0
+        "grantedMaxInt": -5
     }, {
         "name": "Blessed",
         "cost": 4,
-        "holyResist": 5,
+        "granted": [{
+            "resists": [{
+                "name": "holy",
+                "value": 5
+            }]
+        }],
         "prohibitedRaces": {
             "vampire": true
         }
     }, {
         "name": "Blood of the Desert",
         "cost": 4,
-        "fireResist": 5,
+        "granted": [{
+            "resists": [{
+                "name": "fire",
+                "value": 5
+            }]
+        }],
         "prohibitedRaces": {
             "vampire": true
         }
     }, {
         "name": "Blood of the Dragon",
         "cost": 8,
-        "fireResist": 10,
+        "granted": [{
+            "resists": [{
+                "name": "fire",
+                "value": 10
+            }]
+        }],
         "requiredRaces": {
             "irekei": true
         }
     }, {
         "name": "Blood of the North",
         "cost": 4,
-        "coldResist": 5
+        "granted": [{
+            "resists": [{
+                "name": "cold",
+                "value": 5
+            }]
+        }]
     }, {
         "name": "Born in the Country",
         "cost": 4,
@@ -63,11 +77,147 @@
             "dwarf": true
             "irekei": true
         },
-        "bonusStaffSkill": 5
+        "granted": [{
+            "skillPoints": [{
+                "name": "Staff",
+                "value": 5
+            }]
+        }]
+    }, {
+        "name": "Born of the Ethyri",
+        "cost": 10,
+        "category": "subrace",
+        "grantedBaseSpi": 5,
+        "grantedMaxSpi": 10,
+        "granted": [{
+            "effects": [{
+                "name": "manaRecoveryRate",
+                "value": 10
+            }]
+        }],
+        "requiredRaces": {
+            "human": true
+        }
+    }, {
+        "name": "Born of the Gwendannen",
+        "cost": 10,
+        "category": "subrace",
+        "grantedBaseCon": 5,
+        "grantedMaxCon": 10,
+        "granted": [{
+            "effects": [{
+                "name": "stamRecoveryRate",
+                "value": 10
+            }]
+        }],
+        "requiredRaces": {
+            "human": true
+        }
+    }, {
+        "name": "Born of the Invorri",
+        "cost": 10,
+        "category": "subrace",
+        "grantedBaseStr": 5,
+        "grantedMaxStr": 10,
+        "granted": [{
+            "effects": [{
+                "name": "healthRecoveryRate",
+                "value": 10
+            }]
+        }],
+        "requiredRaces": {
+            "human": true
+        }
+    }, {
+        "name": "Born of the Irydnu",
+        "cost": 10,
+        "category": "subrace",
+        "grantedBaseInt": 5,
+        "grantedMaxInt": 10,
+        "granted": [{
+            "effects": [{
+                "name": "manaRecoveryRate",
+                "value": 10
+            }]
+        }],
+        "requiredRaces": {
+            "human": true
+        }
+    }, {
+        "name": "Born of the Taripontor",
+        "cost": 10,
+        "category": "subrace",
+        "grantedBaseDex": 5,
+        "grantedMaxDex": 10,
+        "granted": [{
+            "effects": [{
+                "name": "stamRecoveryRate",
+                "value": 10
+            }]
+        }],
+        "requiredRaces": {
+            "human": true
+        }
+    }, {
+        "name": "Bowyer Born",
+        "cost": 4,
+        "category": "childhood",
+        "requiredClasses": {
+            "fighter": true,
+            "rogue": true
+        },
+        "granted": [{
+            "skillPoints": [{
+                "name": "Crossbow",
+                "value": 5
+            }]
+        }]
     }, {
         "name": "Brawler",
         "cost": 4,
-        "category": "background"
+        "category": "background",
+        "requiredClasses": {
+            "fighter": true
+        },
+        "granted": [{
+            "skills": ["Unarmed Combat"],
+            "skillPoints": [{
+                "name": "Unarmed Combat",
+                "value": 10
+            }]
+        }]
+    }, {
+        "name": "Brilliant Mind",
+        "cost": 12,
+        "category": "intelligence",
+        "requiredInt": 50,
+        "grantedBaseInt": 10,
+        "grantedMaxInt": 10
+    }, {
+        "name": "Brusier",
+        "cost": 4,
+        "category": "background",
+        "granted": [{
+            "skillPoints": [{
+                "name": "Hammer",
+                "value": 5
+            }]
+        }]
+    }, {
+        "name": "Changeling",
+        "cost": 4,
+        "granted": [{
+            "resists": [{
+                "name": "magic",
+                "value": 5
+            }]
+        }]
+    }, {
+        "name": "Clever",
+        "cost": 6,
+        "requiredInt": 40,
+        "grantedBaseInt": 5,
+        "grantedMaxInt": 5
     }, {
         "name": "Born in the Country",
         "cost": 4,
