@@ -74,7 +74,7 @@
         "cost": 4,
         "category": "childhood",
         "prohibitedRaces": {
-            "dwarf": true
+            "dwarf": true,
             "irekei": true
         },
         "granted": [{
@@ -345,6 +345,6 @@
             "crusader": true
         }
     }, {
-        "name": "Master of Daggers",
+        "name": "Master of Daggers"
     }]
 }
