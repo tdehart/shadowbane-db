@@ -1,5 +1,17 @@
 {
     "startingTraits": [{
+        "name": "Agile",
+        "cost": 6,
+        "category": "dexterity",
+        "requiredDex": 40,
+        "grantedBaseDex": 5,
+        "grantedMaxDex": 5
+    }, {
+        "name": "Ambidexterity",
+        "cost": 12,
+        "requiredDex": 50,
+        "requiredClass": "fighter"
+    }, {        
         "name": "Blacksmith's Apprentice",
         "cost": 8,
         "category": "apprentice",
@@ -18,6 +30,40 @@
         "grantedMaxInt": -5,
         "grantedBaseSpirit": 0,
         "grantedMaxSpirit": 0
+    }, {
+        "name": "Blessed",
+        "cost": 4,
+        "holyResist": 5,
+        "prohibitedRaces": {
+            "vampire": true
+        }
+    }, {
+        "name": "Blood of the Desert",
+        "cost": 4,
+        "fireResist": 5,
+        "prohibitedRaces": {
+            "vampire": true
+        }
+    }, {
+        "name": "Blood of the Dragon",
+        "cost": 8,
+        "fireResist": 10,
+        "requiredRaces": {
+            "irekei": true
+        }
+    }, {
+        "name": "Blood of the North",
+        "cost": 4,
+        "coldResist": 5
+    }, {
+        "name": "Born in the Country",
+        "cost": 4,
+        "category": "childhood",
+        "prohibitedRaces": {
+            "dwarf": true
+            "irekei": true
+        },
+        "bonusStaffSkill": 5
     }, {
         "name": "Brawler",
         "cost": 4,
