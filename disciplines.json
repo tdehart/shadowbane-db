@@ -1,0 +1,46 @@
+{
+    "disciplines": [{
+        "name": "Animator",
+        "cost": 0,
+        "availableRaces ": {
+            "aelfborn": true,
+            "aracoix": false,
+            "centaur": false,
+            "dwarf": true,
+            "elf": true,
+            "halfGiant": false,
+            "human": true,
+            "irekei": false,
+            "minotaur": false,
+            "nephilim": false,
+            "shade": true,
+            "vampire": false
+        },
+        " availableClasses ": {
+            "assassin": false,
+            "barbarian": false,
+            "bard": true,
+            "channeler": false,
+            "confessor": true,
+            "crusader": false,
+            "doomsayer": false,
+            "druid": false,
+            "fury": true,
+            "huntress": false,
+            "necromancer": false,
+            "nightstalker": false,
+            "prelate": true,
+            "priest": true,
+            "ranger": false,
+            "scout": false,
+            "sentinel": false,
+            "templar": false,
+            "thief": false,
+            "warlock": false,
+            "warrior": false,
+            "wizard": false
+        }
+    }, {
+        "name": "Archer"
+    }]
+}

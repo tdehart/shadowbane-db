@@ -1,0 +1,12 @@
+{
+    "statRunes": [{
+        "name": "Intelligence of the Gods",
+        "cost": 15,
+        "category": "intelligence",
+        "requiredInt": 120,
+        "grantedBaseInt": 10,
+        "grantedMaxInt": 40
+    }, {
+        "name": "Legendary Intelligence"
+    }]
+}
