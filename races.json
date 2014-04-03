@@ -22,9 +22,6 @@
             "abilities": [{
                 "name": "",
             }],
-            "skills": [{
-                "name": ""
-            }],
             "resistances": [{
                 "name": "",
                 "value":
@@ -138,7 +135,7 @@
         "availableDisciplines": ["Animator", "Archer", "Artillerist", "Bounty Hunter", "Clanwarden", "Commander", "Darksworn", "Enchanter", "Forge Master", "Giant Killer", "Gladiator", "Prospector", "Rat Catcher", "Runecaster", "Sanctifier", "Traveller", "Undead Hunter", "Wyrmslayer"],
         "granted": [{
             "skills": [{
-                "name": "Toughness"
+                "name": ""
             }],
             "resistances": [{
                 "name": "Crushing",
@@ -159,7 +156,7 @@
                 "name": "Unholy",
                 "value": -5
             }],
-            "skills": ["Axe"],
+            "skills": ["Axe", "Toughness"],
             "skillPoints": [{
                 "name": "Axe",
                 "value": 10
