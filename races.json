@@ -134,9 +134,6 @@
         "availablePrestigeClasses": ["Crusader", "Prelate", "Priest", "Sentinel", "Warrior"],
         "availableDisciplines": ["Animator", "Archer", "Artillerist", "Bounty Hunter", "Clanwarden", "Commander", "Darksworn", "Enchanter", "Forge Master", "Giant Killer", "Gladiator", "Prospector", "Rat Catcher", "Runecaster", "Sanctifier", "Traveller", "Undead Hunter", "Wyrmslayer"],
         "granted": [{
-            "skills": [{
-                "name": ""
-            }],
             "resistances": [{
                 "name": "Crushing",
                 "value": 5
