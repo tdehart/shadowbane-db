@@ -29,7 +29,7 @@
         "cost": 4,
         "granted": [{
             "resists": [{
-                "name": "holy",
+                "name": "Holy",
                 "value": 5
             }]
         }],
@@ -41,7 +41,7 @@
         "cost": 4,
         "granted": [{
             "resists": [{
-                "name": "fire",
+                "name": "Fire",
                 "value": 5
             }]
         }],
@@ -53,7 +53,7 @@
         "cost": 8,
         "granted": [{
             "resists": [{
-                "name": "fire",
+                "name": "Fire",
                 "value": 10
             }]
         }],
@@ -65,7 +65,7 @@
         "cost": 4,
         "granted": [{
             "resists": [{
-                "name": "cold",
+                "name": "Cold",
                 "value": 5
             }]
         }]
@@ -210,7 +210,7 @@
         "cost": 4,
         "granted": [{
             "resists": [{
-                "name": "magic",
+                "name": "Magic",
                 "value": 5
             }]
         }]
@@ -968,68 +968,5 @@
                 "value": 5
             }]
         }]
-    }],
-    "statRunes": [{
-        "name": "Intelligence of the Gods",
-        "cost": 15,
-        "category": "intelligence",
-        "requiredInt": 120,
-        "grantedBaseInt": 10,
-        "grantedMaxInt": 40
-    }, {
-        "name": "Legendary Intelligence"
-    }],
-    "disciplines": [{
-        "name": "Animator",
-        "cost": 0,
-        "availableRaces ": {
-            "aelfborn": true,
-            "aracoix": false,
-            "centaur": false,
-            "dwarf": true,
-            "elf": true,
-            "halfGiant": false,
-            "human": true,
-            "irekei": false,
-            "minotaur": false,
-            "nephilim": false,
-            "shade": true,
-            "vampire": false
-        },
-        " availableClasses ": {
-            "assassin": false,
-            "barbarian": false,
-            "bard": true,
-            "channeler": false,
-            "confessor": true,
-            "crusader": false,
-            "doomsayer": false,
-            "druid": false,
-            "fury": true,
-            "huntress": false,
-            "necromancer": false,
-            "nightstalker": false,
-            "prelate": true,
-            "priest": true,
-            "ranger": false,
-            "scout": false,
-            "sentinel": false,
-            "templar": false,
-            "thief": false,
-            "warlock": false,
-            "warrior": false,
-            "wizard": false
-        }
-    }, {
-        "name": "Archer"
-    }],
-    "masteryRunes": [{
-        "name": "Master of Axes",
-        "cost": 5,
-        "availableClasses": {
-            "crusader": true
-        }
-    }, {
-        "name": "Master of Daggers"
     }]
 }

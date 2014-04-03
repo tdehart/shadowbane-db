@@ -16,7 +16,7 @@
             "shade": true,
             "vampire": false
         },
-        " availableClasses ": {
+        "availablePrestigeClasses": {
             "assassin": false,
             "barbarian": false,
             "bard": true,
