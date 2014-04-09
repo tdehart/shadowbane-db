@@ -1,5 +1,222 @@
 {
     "statRunes": [{
+        "name": "Enhanced Strength",
+        "cost": 3,
+        "category": "strength",
+        "requiredStr": 85,
+        "grantedBaseStr": 2,
+        "grantedMaxStr": 5
+    }, {
+        "name": "Exceptional Strength",
+        "cost": 4,
+        "category": "strength",
+        "requiredStr": 90,
+        "grantedBaseStr": 3,
+        "grantedMaxStr": 10
+    }, {
+        "name": "Amazing Strength",
+        "cost": 5,
+        "category": "strength",
+        "requiredStr": 95,
+        "grantedBaseStr": 4,
+        "grantedMaxStr": 15
+    }, {
+        "name": "Incredible Strength",
+        "cost": 8,
+        "category": "strength",
+        "requiredStr": 100,
+        "grantedBaseStr": 5,
+        "grantedMaxStr": 20
+    }, {
+        "name": "Great Strength",
+        "cost": 9,
+        "category": "strength",
+        "requiredStr": 105,
+        "grantedBaseStr": 6,
+        "grantedMaxStr": 25
+    }, {
+        "name": "Heroic Strength",
+        "cost": 11,
+        "category": "strength",
+        "requiredStr": 110,
+        "grantedBaseStr": 7,
+        "grantedMaxStr": 30
+    }, {
+        "name": "Legendary Strength",
+        "cost": 12,
+        "category": "strength",
+        "requiredStr": 115,
+        "grantedBaseStr": 8,
+        "grantedMaxStr": 35
+    }, {
+        "name": "Strength of the Gods",
+        "cost": 15,
+        "category": "strength",
+        "requiredStr": 120,
+        "grantedBaseStr": 10,
+        "grantedMaxStr": 40
+    }, {
+        "name": "Enhanced Dexterity",
+        "cost": 3,
+        "category": "dexterity",
+        "requiredDex": 85,
+        "grantedBaseDex": 2,
+        "grantedMaxDex": 5
+    }, {
+        "name": "Exceptional Dexterity",
+        "cost": 4,
+        "category": "dexterity",
+        "requiredDex": 90,
+        "grantedBaseDex": 3,
+        "grantedMaxDex": 10
+    }, {
+        "name": "Amazing Dexterity",
+        "cost": 5,
+        "category": "dexterity",
+        "requiredDex": 95,
+        "grantedBaseDex": 4,
+        "grantedMaxDex": 15
+    }, {
+        "name": "Incredible Dexterity",
+        "cost": 8,
+        "category": "dexterity",
+        "requiredDex": 100,
+        "grantedBaseDex": 5,
+        "grantedMaxDex": 20
+    }, {
+        "name": "Great Dexterity",
+        "cost": 9,
+        "category": "dexterity",
+        "requiredDex": 105,
+        "grantedBaseDex": 6,
+        "grantedMaxDex": 25
+    }, {
+        "name": "Heroic Dexterity",
+        "cost": 11,
+        "category": "dexterity",
+        "requiredDex": 110,
+        "grantedBaseDex": 7,
+        "grantedMaxDex": 30
+    }, {
+        "name": "Legendary Dexterity",
+        "cost": 12,
+        "category": "dexterity",
+        "requiredDex": 115,
+        "grantedBaseDex": 8,
+        "grantedMaxDex": 35
+    }, {
+        "name": "Dexterity of the Gods",
+        "cost": 15,
+        "category": "dexterity",
+        "requiredDex": 120,
+        "grantedBaseDex": 10,
+        "grantedMaxDex": 40
+    }, {
+        "name": "Enhanced Constitution",
+        "cost": 3,
+        "category": "constitution",
+        "requiredCon": 85,
+        "grantedBaseCon": 2,
+        "grantedMaxCon": 5
+    }, {
+        "name": "Exceptional Constitution",
+        "cost": 4,
+        "category": "constitution",
+        "requiredCon": 90,
+        "grantedBaseCon": 3,
+        "grantedMaxCon": 10
+    }, {
+        "name": "Amazing Constitution",
+        "cost": 5,
+        "category": "constitution",
+        "requiredCon": 95,
+        "grantedBaseCon": 4,
+        "grantedMaxCon": 15
+    }, {
+        "name": "Incredible Constitution",
+        "cost": 8,
+        "category": "constitution",
+        "requiredCon": 100,
+        "grantedBaseCon": 5,
+        "grantedMaxCon": 20
+    }, {
+        "name": "Great Constitution",
+        "cost": 9,
+        "category": "constitution",
+        "requiredCon": 105,
+        "grantedBaseCon": 6,
+        "grantedMaxCon": 25
+    }, {
+        "name": "Heroic Constitution",
+        "cost": 11,
+        "category": "constitution",
+        "requiredCon": 110,
+        "grantedBaseCon": 7,
+        "grantedMaxCon": 30
+    }, {
+        "name": "Legendary Constitution",
+        "cost": 12,
+        "category": "constitution",
+        "requiredCon": 115,
+        "grantedBaseCon": 8,
+        "grantedMaxCon": 35
+    }, {
+        "name": "Constitution of the Gods",
+        "cost": 15,
+        "category": "constitution",
+        "requiredCon": 120,
+        "grantedBaseCon": 10,
+        "grantedMaxCon": 40
+    }, {
+        "name": "Enhanced Intelligence",
+        "cost": 3,
+        "category": "intelligence",
+        "requiredInt": 85,
+        "grantedBaseInt": 2,
+        "grantedMaxInt": 5
+    }, {
+        "name": "Exceptional Intelligence",
+        "cost": 4,
+        "category": "intelligence",
+        "requiredInt": 90,
+        "grantedBaseInt": 3,
+        "grantedMaxInt": 10
+    }, {
+        "name": "Amazing Intelligence",
+        "cost": 5,
+        "category": "intelligence",
+        "requiredInt": 95,
+        "grantedBaseInt": 4,
+        "grantedMaxInt": 15
+    }, {
+        "name": "Incredible Intelligence",
+        "cost": 8,
+        "category": "intelligence",
+        "requiredInt": 100,
+        "grantedBaseInt": 5,
+        "grantedMaxInt": 20
+    }, {
+        "name": "Great Intelligence",
+        "cost": 9,
+        "category": "intelligence",
+        "requiredInt": 105,
+        "grantedBaseInt": 6,
+        "grantedMaxInt": 25
+    }, {
+        "name": "Heroic Intelligence",
+        "cost": 11,
+        "category": "intelligence",
+        "requiredInt": 110,
+        "grantedBaseInt": 7,
+        "grantedMaxInt": 30
+    }, {
+        "name": "Legendary Intelligence",
+        "cost": 12,
+        "category": "intelligence",
+        "requiredInt": 115,
+        "grantedBaseInt": 8,
+        "grantedMaxInt": 35
+    }, {
         "name": "Intelligence of the Gods",
         "cost": 15,
         "category": "intelligence",
@@ -7,6 +224,60 @@
         "grantedBaseInt": 10,
         "grantedMaxInt": 40
     }, {
-        "name": "Legendary Intelligence"
+        "name": "Enhanced Spirit",
+        "cost": 3,
+        "category": "spirit",
+        "requiredSpi": 85,
+        "grantedBaseSpi": 2,
+        "grantedMaxSpi": 5
+    }, {
+        "name": "Exceptional Spirit",
+        "cost": 4,
+        "category": "spirit",
+        "requiredSpi": 90,
+        "grantedBaseSpi": 3,
+        "grantedMaxSpi": 10
+    }, {
+        "name": "Amazing Spirit",
+        "cost": 5,
+        "category": "spirit",
+        "requiredSpi": 95,
+        "grantedBaseSpi": 4,
+        "grantedMaxSpi": 15
+    }, {
+        "name": "Incredible Spirit",
+        "cost": 8,
+        "category": "spirit",
+        "requiredSpi": 100,
+        "grantedBaseSpi": 5,
+        "grantedMaxSpi": 20
+    }, {
+        "name": "Great Spirit",
+        "cost": 9,
+        "category": "spirit",
+        "requiredSpi": 105,
+        "grantedBaseSpi": 6,
+        "grantedMaxSpi": 25
+    }, {
+        "name": "Heroic Spirit",
+        "cost": 11,
+        "category": "spirit",
+        "requiredSpi": 110,
+        "grantedBaseSpi": 7,
+        "grantedMaxSpi": 30
+    }, {
+        "name": "Legendary Spirit",
+        "cost": 12,
+        "category": "spirit",
+        "requiredSpi": 115,
+        "grantedBaseSpi": 8,
+        "grantedMaxSpi": 35
+    }, {
+        "name": "Spirit of the Gods",
+        "cost": 15,
+        "category": "spirit",
+        "requiredSpi": 120,
+        "grantedBaseSpi": 10,
+        "grantedMaxSpi": 40
     }]
 }

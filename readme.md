@@ -204,6 +204,47 @@ Strength, Intelligence, Dexterity, Constitution, Spirit
 * Legendary (+35)
 * of the Gods (+40)
 
+Enhanced Strength
+Exceptional Strength
+Amazing Strength
+Incredible Strength
+Great Strength
+Heroic Strength
+Legendary Strength
+Strength of the Gods
+Enhanced Intelligence
+Exceptional Intelligence
+Amazing Intelligence
+Incredible Intelligence
+Great Intelligence
+Heroic Intelligence
+Legendary Intelligence
+Intelligence of the Gods
+Enhanced Dexterity
+Exceptional Dexterity
+Amazing Dexterity
+Incredible Dexterity
+Great Dexterity
+Heroic Dexterity
+Legendary Dexterity
+Dexterity of the Gods
+Enhanced Constitution
+Exceptional Constitution
+Amazing Constitution
+Incredible Constitution
+Great Constitution
+Heroic Constitution
+Legendary Constitution
+Constitution of the Gods
+Enhanced Spirit
+Exceptional Spirit
+Amazing Spirit
+Incredible Spirit
+Great Spirit
+Heroic Spirit
+Legendary Spirit
+Spirit of the Gods
+
 #### Mastery Runes
 * Master of Axes
 * Master of Daggers
