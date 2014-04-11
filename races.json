@@ -162,5 +162,301 @@
                 "value": 10
             }]
         }]
+    }, {
+        "name": "Elf",
+        "cost": 15,
+        "healthBonus": 0,
+        "manaBonus": 35,
+        "staminaBonus": 70,
+        "grantedBaseStr": -5,
+        "grantedMaxStr": -30,
+        "grantedBaseDex": 25,
+        "grantedMaxDex": 40,
+        "grantedBaseCon": -5,
+        "grantedMaxCon": -30,
+        "grantedBaseInt": 15,
+        "grantedMaxInt": 20,
+        "grantedBaseSpi": 0,
+        "grantedMaxSpi": 0,
+        "availableBaseClasses": ["Fighter", "Healer", "Rogue", "Mage"],
+        "availablePrestigeClasses": ["Assassin","Bard","Channeler","Crusader","Doomsayer","Druid","Necromancer","Fury","Huntress","Prelate","Priest","Ranger","Scout","Sentinel","Thief","Warrior","Wizard"],
+        "availableDisciplines": [NaN],
+        "granted": [{
+            "resistances": [{
+                "name": "Magic",
+                "value": 5
+            },{
+                "name": "Poison",
+                "value": -5
+            }]
+            "skills": ["Sword"],
+            "skillPoints": [{
+                "name": "Sword",
+                "value": 10
+            }]
+        }]
+    }, {
+        "name": "Half Giant",
+        "cost": 10,
+        "healthBonus": 20,
+        "manaBonus": 5,
+        "staminaBonus": 70,
+        "grantedBaseStr": 20,
+        "grantedMaxStr": 50,
+        "grantedBaseDex": 0,
+        "grantedMaxDex": -35,
+        "grantedBaseCon": 20,
+        "grantedMaxCon": 40,
+        "grantedBaseInt": -10,
+        "grantedMaxInt": -15,
+        "grantedBaseSpi": -10,
+        "grantedMaxSpi": -40,
+        "availableBaseClasses": ["Fighter"],
+        "availablePrestigeClasses": ["Barbarian","Crusader","Huntress","Ranger","Sentinel","Templar","Warrior"],
+        "availableDisciplines": [NaN],
+        "granted": [{
+            "resistances": [{
+                "name": "Cold",
+                "value": 10
+            },{
+                "name": "Fire",
+                "value": -5
+            }]
+            "skills": ["Athletics","Toughness","Axe","Hammer","Great Axe","Great Sword","Great Hammer"],
+            "skillPoints": [{
+                "name": "Axe",
+                "value": 10
+            },{
+                "name": "Hammer",
+                "value": 10
+            },{
+                "name": "Great Axe",
+                "value": 10
+            },{
+                "name": "Great Sword",
+                "value": 10
+            },{
+                "name": "Great Hammer",
+                "value": 10
+            }]
+        }]
+    }, {
+        "name": "Human",
+        "cost": 0,
+        "healthBonus": 0,
+        "manaBonus": 25,
+        "staminaBonus": 70,
+        "grantedBaseStr": 0,
+        "grantedMaxStr": 0,
+        "grantedBaseDex": 0,
+        "grantedMaxDex": 0,
+        "grantedBaseCon": 0,
+        "grantedMaxCon": 0,
+        "grantedBaseInt": 0,
+        "grantedMaxInt": 0,
+        "grantedBaseSpi": 0,
+        "grantedMaxSpi": 0,
+        "availableBaseClasses": ["Fighter", "Healer", "Rogue", "Mage"],
+        "availablePrestigeClasses": ["Assassin","Barbarian","Bard","Channeler","Confessor","Crusader","Doomsayer","Druid","Necromancer","Fury","Huntress","Nightstalker","Prelate","Priest","Ranger","Scout","Sentinel","Templar","Thief","Warlock","Warrior","Wizard"],
+        "availableDisciplines": [NaN],
+    }, {
+        "name": "Irekei",
+        "cost": 15,
+        "healthBonus": 0,
+        "manaBonus": 20,
+        "staminaBonus": 70,
+        "grantedBaseStr": 0,
+        "grantedMaxStr": -15,
+        "grantedBaseDex": 15,
+        "grantedMaxDex": 30,
+        "grantedBaseCon": 0,
+        "grantedMaxCon": -10,
+        "grantedBaseInt": -5,
+        "grantedMaxInt": 10,
+        "grantedBaseSpi": -10,
+        "grantedMaxSpi": -15,
+        "availableBaseClasses": ["Fighter", "Healer", "Rogue", "Mage"],
+        "availablePrestigeClasses": ["Assassin","Bard","Channeler","Fury","Nightstalker","Priest","Ranger","Scout","Thief","Warrior","Wizard"],
+        "availableDisciplines": [NaN],
+        "granted": [{
+            "resistances": [{
+                "name": "Fire",
+                "value": 20
+            },{
+                "name": "Cold",
+                "value": -10
+            }]
+            "skills": ["Unarmed Combat"],
+            "skillPoints": [{
+                "name": "Dagger",
+                "value": 10
+            },{
+                "name": "Unarmed Combat",
+                "value": 10
+            }]
+        }]
+    }, {
+        "name": "Minotaur",
+        "cost": 15,
+        "healthBonus": 20,
+        "manaBonus": 0,
+        "staminaBonus": 70,
+        "grantedBaseStr": 35,
+        "grantedMaxStr": 70,
+        "grantedBaseDex": -15,
+        "grantedMaxDex": -30,
+        "grantedBaseCon": 30,
+        "grantedMaxCon": 40,
+        "grantedBaseInt": -15,
+        "grantedMaxInt": -35,
+        "grantedBaseSpi": -15,
+        "grantedMaxSpi": -35,
+        "availableBaseClasses": ["Fighter", "Healer"],
+        "availablePrestigeClasses": ["Barbarian","Doomsayer",Warrior"],
+        "availableDisciplines": [NaN],
+        "granted": [{
+            "resistances": [{
+                "name": "Crushing",
+                "value": 5
+            },{
+                "name": "Piercing",
+                "value": 5
+            },{
+                "name": "Slashing",
+                "value": 5
+            },{
+                "name": "Cold",
+                "value": 20
+            },{
+                "name": "Magic",
+                "value": -5
+            },{
+                "name": "Mental",
+                "value": -10
+            }]
+            "skills": ["Toughness"],
+            "skillPoints": [{
+                "name": "Pole Arm",
+                "value": 10
+            }]
+        }]
+    }, {
+        "name": "Nephilim",
+        "cost": 15,
+        "healthBonus": 0,
+        "manaBonus": 35,
+        "staminaBonus": 70,
+        "grantedBaseStr": 15,
+        "grantedMaxStr": 40,
+        "grantedBaseDex": -25,
+        "grantedMaxDex": -40,
+        "grantedBaseCon": 0,
+        "grantedMaxCon": -10,
+        "grantedBaseInt": 25,
+        "grantedMaxInt": 30,
+        "grantedBaseSpi": -10,
+        "grantedMaxSpi": -20,
+        "availableBaseClasses": ["Fighter", "Healer", "Rogue", "Mage"],
+        "availablePrestigeClasses": ["Assassin","Barbarian","Bard","Channeler","Doomsayer","Necromancer","Fury","Scout","Thief","Warlock","Warrior","Wizard"],
+        "availableDisciplines": [NaN],
+        "granted": [{
+            "resistances": [{
+                "name": "Fire",
+                "value": 15
+            },{
+                "name": "Lightning",
+                "value": 10
+            },{
+                "name": "Magic",
+                "value": -10
+            },{
+                "name": "Holy",
+                "value": -15
+            }]
+        }]
+    }, {
+        "name": "Shade",
+        "cost": 10,
+        "healthBonus": 0,
+        "manaBonus": 30,
+        "staminaBonus": 70,
+        "grantedBaseStr": 0,
+        "grantedMaxStr": -10,
+        "grantedBaseDex": 10,
+        "grantedMaxDex": 15,
+        "grantedBaseCon": 0,
+        "grantedMaxCon": -5,
+        "grantedBaseInt": 5,
+        "grantedMaxInt": 10,
+        "grantedBaseSpi": -10,
+        "grantedMaxSpi": -10,
+        "availableBaseClasses": ["Fighter", "Rogue", "Mage"],
+        "availablePrestigeClasses": ["Assassin","Channeler","Necromancer","Ranger","Scout","Thief","Warlock","Warrior","Wizard"],
+        "availableDisciplines": [NaN],
+        "granted": [{
+            "resistances": [{
+                "name": "Poison",
+                "value": 10
+            },{
+                "name": "Unholy",
+                "value": 5
+            },{
+                "name": "Holy",
+                "value": -20
+            }]
+        }]
+    }]
+    }, {
+        "name": "Vampire",
+        "cost": 25,
+        "healthBonus": 40,
+        "manaBonus": 0,
+        "staminaBonus": 70,
+        "grantedBaseStr": 5,
+        "grantedMaxStr": 20,
+        "grantedBaseDex": 10,
+        "grantedMaxDex": 20,
+        "grantedBaseCon": 5,
+        "grantedMaxCon": 20,
+        "grantedBaseInt": 10,
+        "grantedMaxInt": 20,
+        "grantedBaseSpi": -10,
+        "grantedMaxSpi": -35,
+        "availableBaseClasses": ["Fighter", "Rogue", "Mage"],
+        "availablePrestigeClasses": ["Assassin","Necromancer","Scout","Thief","Warlock","Warrior","Wizard"],
+        "availableDisciplines": [NaN],
+        "granted": [{
+            "abilities": [{
+                "name": "Dark Fortitude"
+            }, {
+                "name": "The Lesser Kiss"
+            }, {
+                "name": "Vampire's Kiss"    
+            }],
+            "skills": ["Bloodcraft"],
+            "skillPoints": [{
+                "name": "Bloodcraft",
+                "value": 10
+            }],
+            "resistances": [{
+                "name": "Poison",
+                "value": 10
+            },{
+                "name": "Unholy",
+                "value": 10
+            },{
+                "name": "Cold",
+                "value": 10
+            },{
+                "name": "Healing",
+                "value": 35
+            },{
+                "name": "Holy",
+                "value": -25
+            },{
+                "name": "Fire",
+                "value": -25
+            }]
+        }]
     }]
 }
