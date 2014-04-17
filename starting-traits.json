@@ -407,7 +407,7 @@
         "name": "Lightning Reflexes",
         "cost": 12,
         "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "dexterity",
+        "category": "Dexterity",
         "requiredDex": 50,
         "grantedBaseDex": 10,
         "grantedMaxDex": 10
@@ -621,7 +621,7 @@
         "name": "Scion of the Dar Khelegur",
         "cost": 10,
         "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "subrace",
+        "category": "Subrace",
         "grantedBaseInt": 5,
         "grantedMaxInt": 10,
         "granted": [{
@@ -635,7 +635,7 @@
         "name": "Scion of the Gwaridorn",
         "cost": 10,
         "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "subrace",
+        "category": "Subrace",
         "grantedBaseCon": 5,
         "grantedMaxCon": 10,
         "granted": [{
@@ -649,7 +649,7 @@
         "name": "Scion of the Twathedilion",
         "cost": 10,
         "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "subrace",
+        "category": "Subrace",
         "grantedBaseDex": 5,
         "grantedMaxDex": 10,
         "granted": [{
