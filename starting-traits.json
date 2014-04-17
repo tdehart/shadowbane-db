@@ -269,7 +269,8 @@
         }]
     }, {
         "name": "Giant's Blood",
-        "cost ": 14,
+        "cost": 14,
+        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
         "requiredStr": 50,
         "requiredCon": 40,
         "grantedBaseStr": 10,
