@@ -4,100 +4,280 @@
         "availableRaces": ["Aelfborn", "Dwarf", "Elf", "Human", "Shade"],
         "classesAvailable": ["Bard", "Confessor", "Fury", "Prelate", "Priest"]
     }, {
-        "name": "Archer"
+        "name": "Archer",
+        "availableBaseClasses": [],
+        "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+        "availablePrestigeClasses": ["Assassin", "Bard", "Huntress", "Nightstalker", "Ranger", "Thief", "Warrior"],
+        "disciplinesProhibited": []
     }, {
-        "name": "Archmage"
+        "name": "Archmage",
+        "availableBaseClasses": ["Mage"],
+        "availableRaces": ["Elf"],
+        "availablePrestigeClasses": ["Assassin", "Bard", "Channeler", "Doomsayer", "Fury", "Necromancer", "Wizard"],
+        "disciplinesProhibited": []
     }, {
-        "name": "Artillerist",
+        "name": "Artillerist"
         "availableBaseClasses": ["Fighter", "Rogue"],
         "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade", "Vampire"],
         "availablePrestigeClasses": ["Assassin", "Bard", "Crusader", "Huntress", "Nightstalker", "Ranger", "Scout", "Templar", "Thief", "Warlock", "Warrior"],
         "disciplinesProhibited": ["Commander", "Sapper", "Saboteur"]
     }, {
-        "name": "Battle Magus"
+        "name": "Battle Magus",
+        "availableBaseClasses": ["Mage"],
+        "availableRaces": ["Aelfborn", "Elf", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+        "availablePrestigeClasses": ["Assassin", "Bard", "Channeler", "Doomsayer", "Fury", "Necromancer", "Warlock", "Wizard"],
+        "disciplinesProhibited": ["Commander"]
     }, {
-        "name": "Belgosch"
+        "name": "Belgosch",
+        "availableBaseClasses": ["Mage", "Rogue"],
+        "availableRaces": ["Vampire"],
+        "availablePrestigeClasses": ["Assassin", "Necromancer", "Scout", "Thief", "Warlock", "Wizard"],
+        "disciplinesProhibited": ["Gorgoi", "Strigoi"]
     }, {
-        "name": "Berserker"
+        "name": "Berserker",
+		"availableBaseClasses": ["Fighter", "Rogue"],
+		"availableRaces": ["Aelfborn", "Half Giant", "Human", "Minotaur", "Shade"],
+		"availablePrestigeClasses": ["Barbarian", "Huntress", "Ranger", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Black Mask"
+        "name": "Black Mask",
+		"availableBaseClasses": ["Rogue"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Elf", "Human", "Irekei", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Bard", "Huntress", "Nightstalker", "Ranger", "Scout"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Blade Master"
+        "name": "Blade Master",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Human", "Shade"],
+		"availablePrestigeClasses": ["Bard", "Crusader", "Nightstalker", "Ranger", "Scout", "Sentinel", "Templar", "Thief", "Warlock", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Blade Weaver"
+        "name": "Blade Weaver",
+		"availableBaseClasses": [],
+		"availableRaces": ["Elf"],
+		"availablePrestigeClasses": ["Assassin", "Bard", "Channeler", "Crusader", "Doomsayer", "Druid", "Fury", "Huntress", "Necromancer", "Prelate", "Priest", "Ranger", "Scout", "Sentinel", "Thief", "Warrior", "Wizard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Blood Horn"
+        "name": "Blood Horn",
+		"availableBaseClasses": ["Healer", "Fighter"],
+		"availableRaces": ["Minotaur"],
+		"availablePrestigeClasses": ["Barbarian", "Doomsayer", "Warrior"],
+		"disciplinesProhibited": ["Thrall"]
     }, {
-        "name": "Blood Prophet"
+        "name": "Blood Prophet",
+		"availableBaseClasses": ["Mage"],
+		"availableRaces": ["Irekei"],
+		"availablePrestigeClasses": ["Assassin", "Bard", "Channeler", "Fury", "Wizard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Bounty Hunter"
+        "name": "Bounty Hunter",
+		"availableBaseClasses": ["Fighter", "Rogue"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Shade", "Nephilim", "Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Barbarian", "Bard", "Crusader", "Huntress", "Nightstalker", "Ranger", "Sentinel", "Scout", "Templar", "Thief", "Warlock", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Clanwarden"
+        "name": "Clanwarden",
+		"availableBaseClasses": ["Healer"],
+		"availableRaces": ["Dwarf"],
+		"availablePrestigeClasses": ["Priest"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Commander"
+        "name": "Commander",
+		"availableBaseClasses": ["Healer", "Mage", "Fighter", "Rogue"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Barbarian", "Bard", "Channeler", "Confessor", "Crusader", "Doomsayer", "Huntress", "Prelate", "Priest", "Ranger", "Sentinel", "Templar", "Warlock", "Warrior", "Wizard"],
+		"disciplinesProhibited": ["Artillerist", "Battle Magus", "Sanctifier", "Sapper"]
     }, {
-        "name": "Conjurer"
+        "name": "Conjurer",
+		"availableBaseClasses": ["Mage"],
+		"availableRaces": ["Aelfborn", "Elf", "Human", "Irekei", "Shade", "Nephilim"],
+		"availablePrestigeClasses": ["Bard", "Channeler", "Fury", "Warlock", "Wizard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Dark Knight"
+        "name": "Dark Knight",
+		"availableBaseClasses": ["Fighter"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Half Giant", "Human", "Minotaur", "Nephilim", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Templar", "Warrior"],
+		"disciplinesProhibited": ["Knight"]
     }, {
-        "name": "Darksworn"
+        "name": "Darksworn",
+		"availableBaseClasses": ["Healer"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Human"],
+		"availablePrestigeClasses": ["Channeler", "Confessor", "Crusader", "Druid", "Prelate", "Priest"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Drannok"
+        "name": "Drannok",
+		"availableBaseClasses": ["Fighter"],
+		"availableRaces": ["Vampire"],
+		"availablePrestigeClasses": ["Warlock", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Enchanter"
+        "name": "Enchanter",
+		"availableBaseClasses": ["Healer", "Mage", "Fighter", "Rogue"],
+		"availableRaces": ["Aelfborn", "Centaur", "Dwarf", "Elf", "Human", "Irekei", "Shade"],
+		"availablePrestigeClasses": ["Assassin", "Bard", "Channeler", "Confessor", "Doomsayer", "Druid", "Fury", "Necromancer", "Prelate", "Warlock", "Wizard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Forge Master"
+        "name": "Forge Master",
+		"availableBaseClasses": ["Healer", "Fighter"],
+		"availableRaces": ["Dwarf"],
+		"availablePrestigeClasses": ["Crusader", "Prelate", "Priest", "Sentinel", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Giant Killer"
+        "name": "Giant Killer",
+		"availableBaseClasses": ["Healer", "Fighter"],
+		"availableRaces": ["Dwarf"],
+		"availablePrestigeClasses": ["Crusader", "Prelate", "Priest", "Sentinel", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Gladiator"
+        "name": "Gladiator",
+		"availableBaseClasses": ["Fighter", "Rogue"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade"],
+		"availablePrestigeClasses": ["Barbarian", "Huntress", "Ranger", "Scout", "Thief", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Gorgoi"
+        "name": "Gorgoi",
+		"availableBaseClasses": ["Mage"],
+		"availableRaces": ["Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Necromancer", "Warlock", "Wizard"],
+		"disciplinesProhibited": ["Belgosch"]
     }, {
-        "name": "Huntsman"
+        "name": "Huntsman",
+		"availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade"],
+		"availablePrestigeClasses": ["Barbarian", "Bard", "Crusader", "Druid", "Huntress", "Nightstalker", "Ranger", "Scout", "Sentinel", "Templar", "Thief", "Warrior"],
+		"disciplinesProhibited": ["Werebear", "Wererat", "Werewolf"]
     }, {
-        "name": "Knight"
+        "name": "Knight",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Centaur", "Half Giant", "Human"],
+		"availablePrestigeClasses": ["Bard", "Crusader", "Ranger", "Sentinel", "Warrior"],
+		"disciplinesProhibited": ["Dark Knight"]
     }, {
-        "name": "Prospector"
+        "name": "Prospector",
+		"availableBaseClasses": ["Fighter", "Rogue"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Barbarian", "Bard", "Crusader", "Huntress", "Nightstalker", "Ranger", "Scout", "Sentinel", "Templar", "Thief", "Warlock", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Rat Catcher"
+        "name": "Rat Catcher",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Centaur", "Dwarf", "Elf", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Bard", "Channeler", "Doomsayer", "Druid", "Nightstalker", "Ranger", "Scout", "Thief"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Rune Caster"
+        "name": "Rune Caster",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Shade"],
+		"availablePrestigeClasses": ["Barbarian", "Bard", "Crusader", "Druid", "Fury", "Ranger", "Scout", "Sentinel"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Saboteur"
+        "name": "Saboteur",
+		"availableBaseClasses": ["Rogue"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Elf", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Barbarian", "Bard", "Huntress", "Nightstalker", "Ranger", "Scout", "Thief"],
+		"disciplinesProhibited": ["Artillerist", "Commander", "Wererat"]
     }, {
-        "name": "Sanctifier"
+        "name": "Sanctifier",
+		"availableBaseClasses": ["Healer"],
+		"availableRaces": ["Aelfborn", "Centaur", "Dwarf", "Elf", "Human", "Irekei", "Minotaur", "Nephilim"],
+		"availablePrestigeClasses": ["Channeler", "Confessor", "Crusader", "Doomsayer", "Druid", "Prelate", "Priest"],
+		"disciplinesProhibited": ["Commander"]
     }, {
-        "name": "Sapper"
+        "name": "Sapper",
+		"availableBaseClasses": ["Fighter"],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Barbarian", "Crusader", "Huntress", "Ranger", "Sentinel", "Templar", "Warlock", "Warrior"],
+		"disciplinesProhibited": ["Artillerist", "Commander"]
     }, {
-        "name": "Savant"
+        "name": "Savant",
+		"availableBaseClasses": ["Fighter", "Healer", "Rogue"],
+		"availableRaces": ["Aracoix"],
+		"availablePrestigeClasses": ["Assassin", "Huntress", "Priest", "Ranger", "Warlock"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Shroudborne"
+        "name": "Shroudborne",
+		"availableBaseClasses": ["Mage"],
+		"availableRaces": ["Shade"],
+		"availablePrestigeClasses": ["Assassin", "Channeler", "Necromancer", "Warlock", "Wizard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Skydancer"
+        "name": "Skydancer",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aracoix"],
+		"availablePrestigeClasses": ["Barbarian", "Scout", "Thief", "Warlock", "Warrior", "Bard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Storm Lord"
+        "name": "Storm Lord",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Half Giant", "Human"],
+		"availablePrestigeClasses": ["Barbarian", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Strigoi"
+        "name": "Strigoi",
+		"availableBaseClasses": ["Rogue"],
+		"availableRaces": ["Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Scout", "Thief"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Summoner"
+        "name": "Summoner",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Aracoix", "Elf", "Human", "Irekei", "Nephilim", "Shade"],
+		"availablePrestigeClasses": ["Barbarian", "Doomsayer", "Druid", "Fury", "Priest", "Thief", "Warlock", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Sun Dancer"
+        "name": "Sun Dancer",
+		"availableBaseClasses": [],
+		"availableRaces": ["Irekei"],
+		"availablePrestigeClasses": ["Assassin", "Nightstalker", "Scout", "Thief", "Warrior", "Ranger", "Huntress", "Wizard", "Channeler", "Priest", "Bard", "Fury"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Thrall"
+        "name": "Thrall",
+		"availableBaseClasses": ["Fighter", "Healer"],
+		"availableRaces": ["Minotaur"],
+		"availablePrestigeClasses": ["Barbarian", "Doomsayer", "Warrior"],
+		"disciplinesProhibited": ["Blood Horn"]
     }, {
-        "name": "Traveler"
+        "name": "Traveler",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade", "Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Barbarian", "Bard", "Channeler", "Confessor", "Crusader", "Doomsayer", "Druid", "Fury", "Huntress", "Necromancer", "Nightstalker", "Prelate", "Priest", "Ranger", "Scout", "Sentinel", "Templar", "Thief", "Warlock", "Warrior", "Wizard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Undead Hunter"
+        "name": "Undead Hunter",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Shade"],
+		"availablePrestigeClasses": ["Assassin", "Barbarian", "Bard", "Confessor", "Crusader", "Druid", "Fury", "Huntress", "Prelate", "Priest", "Ranger", "Scout", "Sentinel", "Templar", "Thief", "Warrior", "Wizard"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Valkyr"
+        "name": "Valkyr",
+		"availableBaseClasses": ["Fighter"],
+		"availableRaces": ["Aelfborn", "Humans"],
+		"availablePrestigeClasses": ["Barbarian", "Huntress", "Ranger", "Warrior"],
+		"disciplinesProhibited": []
     }, {
-        "name": "Werebear"
+        "name": "Werebear",
+		"availableBaseClasses": [],
+		"availableRaces": ["Half Giant", "Human"],
+		"availablePrestigeClasses": ["Barbarian", "Druid", "Ranger", "Warrior"],
+		"disciplinesProhibited": ["Huntsman", "Wererat", "Werewolf"]
     }, {
-        "name": "Wererat"
+        "name": "Wererat",
+		"availableBaseClasses": [],
+		"availableRaces": ["Human", "Shade"],
+		"availablePrestigeClasses": ["Assassin", "Ranger", "Scout", "Thief"],
+		"disciplinesProhibited": ["Huntsman", "Saboteur", "Werebear", "Werewolf"]
     }, {
-        "name": "Werewolf"
+        "name": "Werewolf",
+		"availableBaseClasses": ["Races Available", "Aelfborn", "Human"],
+		"availableRaces": [],
+		"availablePrestigeClasses": ["Bard", "Druid", "Ranger", "Warrior"],
+		"disciplinesProhibited": ["Huntsman", "Werebear", "Wererat"]
     }, {
-        "name": "Wyrmslayer"
+        "name": "Wyrmslayer",
+		"availableBaseClasses": [],
+		"availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Nephilim", "Shades", "Vampire"],
+		"availablePrestigeClasses": ["Assassin", "Barbarian", "Bard", "Crusader", "Huntress", "Necromancer", "Priest", "Ranger", "Sentinel", "Templar", "Thief", "Warrior", "Wizard"],
+		"disciplinesProhibited": []
     }]
 }
