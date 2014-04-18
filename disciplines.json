@@ -1,46 +1,103 @@
 {
     "disciplines": [{
         "name": "Animator",
-        "cost": 0,
-        "availableRaces ": {
-            "aelfborn": true,
-            "aracoix": false,
-            "centaur": false,
-            "dwarf": true,
-            "elf": true,
-            "halfGiant": false,
-            "human": true,
-            "irekei": false,
-            "minotaur": false,
-            "nephilim": false,
-            "shade": true,
-            "vampire": false
-        },
-        "availablePrestigeClasses": {
-            "assassin": false,
-            "barbarian": false,
-            "bard": true,
-            "channeler": false,
-            "confessor": true,
-            "crusader": false,
-            "doomsayer": false,
-            "druid": false,
-            "fury": true,
-            "huntress": false,
-            "necromancer": false,
-            "nightstalker": false,
-            "prelate": true,
-            "priest": true,
-            "ranger": false,
-            "scout": false,
-            "sentinel": false,
-            "templar": false,
-            "thief": false,
-            "warlock": false,
-            "warrior": false,
-            "wizard": false
-        }
+        "availableRaces": ["Aelfborn", "Dwarf", "Elf", "Human", "Shade"],
+        "classesAvailable": ["Bard", "Confessor", "Fury", "Prelate", "Priest"]
     }, {
         "name": "Archer"
+    }, {
+        "name": "Archmage"
+    }, {
+        "name": "Artillerist",
+        "availableBaseClasses": ["Fighter", "Rogue"],
+        "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade", "Vampire"],
+        "availablePrestigeClasses": ["Assassin", "Bard", "Crusader", "Huntress", "Nightstalker", "Ranger", "Scout", "Templar", "Thief", "Warlock", "Warrior"],
+        "disciplinesProhibited": ["Commander", "Sapper", "Saboteur"]
+    }, {
+        "name": "Battle Magus"
+    }, {
+        "name": "Belgosch"
+    }, {
+        "name": "Berserker"
+    }, {
+        "name": "Black Mask"
+    }, {
+        "name": "Blade Master"
+    }, {
+        "name": "Blade Weaver"
+    }, {
+        "name": "Blood Horn"
+    }, {
+        "name": "Blood Prophet"
+    }, {
+        "name": "Bounty Hunter"
+    }, {
+        "name": "Clanwarden"
+    }, {
+        "name": "Commander"
+    }, {
+        "name": "Conjurer"
+    }, {
+        "name": "Dark Knight"
+    }, {
+        "name": "Darksworn"
+    }, {
+        "name": "Drannok"
+    }, {
+        "name": "Enchanter"
+    }, {
+        "name": "Forge Master"
+    }, {
+        "name": "Giant Killer"
+    }, {
+        "name": "Gladiator"
+    }, {
+        "name": "Gorgoi"
+    }, {
+        "name": "Huntsman"
+    }, {
+        "name": "Knight"
+    }, {
+        "name": "Prospector"
+    }, {
+        "name": "Rat Catcher"
+    }, {
+        "name": "Rune Caster"
+    }, {
+        "name": "Saboteur"
+    }, {
+        "name": "Sanctifier"
+    }, {
+        "name": "Sapper"
+    }, {
+        "name": "Savant"
+    }, {
+        "name": "Shroudborne"
+    }, {
+        "name": "Skydancer"
+    }, {
+        "name": "Storm Lord"
+    }, {
+        "name": "Strigoi"
+    }, {
+        "name": "Summoner"
+    }, {
+        "name": "Sun Dancer"
+    }, {
+        "name": "Thrall"
+    }, {
+        "name": "Traveler"
+    }, {
+        "name": "Undead Hunter"
+    }, {
+        "name": "Valkyr"
+    }, {
+        "name": "Werebear"
+    }, {
+        "name": "Wererat"
+    }, {
+        "name": "Werewolf"
+    }, {
+        "name": "Wyrmslayer"
     }]
 }
