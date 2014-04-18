@@ -1,8 +1,10 @@
 {
     "disciplines": [{
         "name": "Animator",
+        "availableBaseClasses": ["Mage", "Healer", "Rogue"],
         "availableRaces": ["Aelfborn", "Dwarf", "Elf", "Human", "Shade"],
-        "classesAvailable": ["Bard", "Confessor", "Fury", "Prelate", "Priest"]
+        "availablePrestigeClasses": ["Bard", "Confessor", "Fury", "Prelate", "Priest"],
+        "disciplinesProhibited": []
     }, {
         "name": "Archer",
         "availableBaseClasses": ["Fighter, Healer", "Mage", "Rogue"],
