@@ -1,0 +1,158 @@
+{
+  "prestigeClasses": [
+    {
+      "name": "Assassin",
+      "availableBaseClasses": ["Mage", "Rogue"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Elf", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+      "availableDisciplines": ["Archer", "Archmage", "Artillerist", "Battle Magus", "Belgosch", "Blade Weaver", "Blood Prophet", "Bounty Hunter", "Conjurer", "Enchanter", "Gorgoi", "Prospector", "Rat Catcher", "Saboteur", "Savant", "Shroudborne", "Strigoi", "Sun Dancer", "Traveler", "Undead Hunter", "Wererat", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Great Swords", "Master of Staves"]
+    },
+    {
+      "name": "Barbarian",
+      "availableBaseClasses": ["Fighter", "Rogue"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Half-Giant", "Human", "Minotaur", "Nephilim"],
+      "availableDisciplines": ["Berserker", "Blood Horn", "Bounty Hunter", "Commander", "Gladiator", "Huntsman", "Prospector", "Rune Caster", "Saboteur", "Sapper", "Skydancer", "Storm Lord", "Summoner", "Thrall", "Traveler", "Undead Hunter", "Valkyr", "Werebear", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Hammers", "Master of Polearms", "Master of Swords"]
+    },
+    {
+      "name": "Bard",
+      "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Elf", "Human", "Irekei", "Nephilim"],
+      "availableDisciplines": ["Animator", "Archer", "Archmage", "Artillerist", "Battle Magus", "Black Mask", "Blade Master", "Blade Weaver", "Blood Prophet", "Bounty Hunter", "Commander", "Conjurer", "Enchanter", "Huntsman", "Knight", "Prospector", "Rat Catcher", "Rune Caster", "Saboteur", "Sky Dancer", "Sun Dancer", "Traveler", "Undead Hunter", "Werewolf", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Great Swords", "Master of Throwing"]
+    },
+    {
+      "name": "Channeler",
+      "availableBaseClasses": ["Healer", "Mage"],
+      "availableRaces": ["Aelfborn", "Elf", "Human", "Irekei", "Nephilim", "Shade"],
+      "availableDisciplines": ["Archmage", "Battle Magus", "Blade Weaver", "Blood Prophet", "Commander", "Conjurer", "Darksworn", "Enchanter", "Rat Catcher", "Sanctifier", "Shroudborne", "Sun Dancer", "Traveler"],
+      "availableMasteryRunes": ["Master of Staves"]
+    },
+    {
+      "name": "Confessor",
+      "availableBaseClasses": ["Healer"],
+      "availableRaces": ["Human"],
+      "availableDisciplines": ["Animator", "Commander", "Darksworn", "Enchanter", "Sanctifier", "Traveler", "Undead Hunter"],
+      "availableMasteryRunes": ["Master of Great Hammers", "Master of Hammers", "Master of Staves"]
+    },
+    {
+      "name": "Crusader",
+      "availableBaseClasses": ["Fighter", "Healer"],
+      "availableRaces": ["Aelfborn", "Centaur", "Dwarf", "Elf", "Half Giant", "Human"],
+      "availableDisciplines": ["Artillerist", "Blade Master", "Blade Weaver", "Bounty Hunter", "Commander", "Darksworn", "Forge Master", "Giant Killer", "Huntsman", "Knight", "Prospector", "Rune Caster", "Sanctifier", "Sapper", "Traveler", "Undead Hunter", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Axes"]
+    },
+    {
+      "name": "Doomsayer",
+      "availableBaseClasses": ["Healer", "Mage"],
+      "availableRaces": ["Aelfborn", "Elf", "Human", "Minotaur", "Nephilim"],
+      "availableDisciplines": ["Archmage", "Battle Magus", "Blade Weaver", "Blood Horn", "Commander", "Conjurer", "Enchanter", "Rat Catcher", "Sanctifier", "Summoner", "Thrall", "Traveler"],
+      "availableMasteryRunes": []
+    },
+    {
+      "name": "Druid",
+      "availableBaseClasses": ["Healer"],
+      "availableRaces": ["Aelfborn", "Centaur", "Elf", "Human"],
+      "availableDisciplines": ["Blade Weaver", "Darksworn", "Enchanter", "Huntsman", "Rat Catcher", "Rune Caster", "Sanctifier", "Summoner", "Traveler", "Undead Hunter", "Werebear", "Werewolf"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Great Hammers", "Master of Hammers", "Master of Staves"]
+    },
+    {
+      "name": "Fury",
+      "availableBaseClasses": ["Mage"],
+      "availableRaces": ["Aelfborn", "Elf", "Human", "Irekei", "Nephilim"],
+      "availableDisciplines": ["Animator", "Archmage", "Battle Magus", "Blade Weaver", "Blood Prophet", "Conjurer", "Enchanter", "Rune Caster", "Summoner", "Sun Dancer", "Traveler", "Undead Hunter"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Spears", "Master of Staves"]
+    },
+    {
+      "name": "Huntress",
+      "availableBaseClasses": ["Fighter", "Rogue"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Elf", "Half Giant", "Human", "Irekei"],
+      "availableDisciplines": ["Archer", "Artillerist", "Berserker", "Black Mask", "Blade Weaver", "Bounty Hunter", "Commander", "Gladiator", "Huntsman", "Prospector", "Saboteur", "Sapper", "Savant", "Summoner", "Sun Dancer", "Traveler", "Undead Hunter", "Valkyr", "Wyrmslayer"],
+      "availableMasteryRunes": []
+    },
+    {
+      "name": "Necromancer",
+      "availableBaseClasses": ["Mage"],
+      "availableRaces": ["Aelfborn", "Elf", "Human", "Shade", "Vampire"],
+      "availableDisciplines": ["Archmage", "Battle Magus", "Belgosch", "Blade Weaver", "Conjurer", "Enchanter", "Gorgoi", "Shroudborne", "Traveler", "Wyrmslayer"],
+      "availableMasteryRunes": []
+    },
+    {
+      "name": "Nightstalker",
+      "availableBaseClasses": ["Rogue"],
+      "availableRaces": ["Aelfborn", "Human", "Irekei"],
+      "availableDisciplines": ["Archer", "Artillerist", "Black Mask", "Blade Master", "Bounty Hunter", "Huntsman", "Prospector", "Rat Catcher", "Saboteur", "Sun Dancer", "Traveler"],
+      "availableMasteryRunes": []
+    },
+    {
+      "name": "Prelate",
+      "availableBaseClasses": ["Healer"],
+      "availableRaces": ["Aelfborn", "Centaur", "Dwarf", "Elf", "Human"],
+      "availableDisciplines": ["Animator", "Blade Weaver", "Commander", "Darksworn", "Enchanter", "Forge Master", "Giant Killer", "Sanctifier", "Summoner", "Traveler", "Undead Hunter"],
+      "availableMasteryRunes": ["Master of Great Hammers", "Master of Hammers", "Master of Staves"]
+    },
+    {
+      "name": "Priest",
+      "availableBaseClasses": ["Healer"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Human", "Irekei"],
+      "availableDisciplines": ["Animator", "Blade Weaver", "Clanwarden", "Commander", "Darksworn", "Forge Master", "Giant Killer", "Sanctifier", "Savant", "Summoner", "Sun Dancer", "Traveler", "Undead Hunter", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Great Hammers", "Master of Hammers", "Master of Staves"]
+    },
+    {
+      "name": "Ranger",
+      "availableBaseClasses": ["Fighter", "Rogue"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Elf", "Half Giant", "Human", "Irekei", "Shade"],
+      "availableDisciplines": ["Archer", "Artillerist", "Berserker", "Black Mask", "Blade Master", "Blade Weaver", "Bounty Hunter", "Commander", "Gladiator", "Huntsman", "Knight", "Prospector", "Rat Catcher", "Rune Caster", "Saboteur", "Sapper", "Savant", "Sun Dancer", "Traveler", "Undead Hunter", "Valkyr", "Werebear", "Wererat", "Werewolf", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Great Axes", "Master of Great Swords", "Master of Throwing"]
+    },
+    {
+      "name": "Scout",
+      "availableBaseClasses": ["Rogue"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Elf", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+      "availableDisciplines": ["Artillerist", "Belgosch", "Black Mask", "Blade Master", "Blade Weaver", "Bounty Hunter", "Gladiator", "Huntsman", "Prospector", "Rat Catcher", "Rune Caster", "Saboteur", "Sky Dancer", "Sun Dancer", "Strigoi", "Traveler", "Undead Hunter", "Wererat"],
+      "availableMasteryRunes": ["Master of Great Swords", "Master of Staves", "Master of Swords"]
+    },
+    {
+      "name": "Sentinel",
+      "availableBaseClasses": ["Fighter"],
+      "availableRaces": ["Aelfborn", "Centaur", "Dwarf", "Elf", "Half Giant", "Human"],
+      "availableDisciplines": ["Artillerist", "Blade Master", "Blade Weaver", "Bounty Hunter", "Commander", "Forge Master", "Giant Killer", "Huntsman", "Knight", "Prospector", "Rune Caster", "Sapper", "Traveler", "Undead Hunter", "Wyrmslayer"],
+      "availableMasteryRunes": []
+    },
+    {
+      "name": "Templar",
+      "availableBaseClasses": ["Fighter"],
+      "availableRaces": ["Half Giant", "Human"],
+      "availableDisciplines": ["Artillerist", "Blade Master", "Bounty Hunter", "Commander", "Dark Knight", "Huntsman", "Prospector", "Sapper", "Traveler", "Undead Hunter", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Great Hammers", "Master of Hammers", "Master of Throwing"]
+    },
+    {
+      "name": "Thief",
+      "availableBaseClasses": ["Rogue"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Elf", "Human", "Irekei", "Nephilim", "Shade", "Vampire"],
+      "availableDisciplines": ["Archer", "Artillerist", "Belgosch", "Blade Master", "Blade Weaver", "Bounty Hunter", "Gladiator", "Huntsman", "Prospector", "Rat Catcher", "Saboteur", "Skydancer", "Strigoi", "Summoner", "Sun Dancer", "Traveler", "Undead Hunter", "Wererat", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Great Swords", "Master of Staves", "Master of Swords"]
+    },
+    {
+      "name": "Warlock",
+      "availableBaseClasses": ["Fighter", "Mage"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Human", "Nephilim", "Shade", "Vampire"],
+      "availableDisciplines": ["Artillerist", "Battle Magus", "Belgosch", "Blade Master", "Bounty Hunter", "Commander", "Conjurer", "Drannok", "Enchanter", "Gorgoi", "Prospector", "Sapper", "Savant", "Shroudborne", "Skydancer", "Summoner", "Traveler"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Great Swords"]
+    },
+    {
+      "name": "Warrior",
+      "availableBaseClasses": ["Fighter"],
+      "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Irekei", "Minotaur", "Nephilim", "Shade", "Vampire"],
+      "availableDisciplines": ["Archer", "Artillerist", "Berserker", "Blade Master", "Blade Weaver", "Blood Horn", "Bounty Hunter", "Commander", "Dark Knight", "Drannok", "Forge Master", "Giant Killer", "Gladiator", "Huntsman", "Knight", "Prospector", "Sapper", "Sky Dancer", "Storm Lord", "Sun Dancer", "Thrall", "Traveler", "Undead Hunter", "Valkyr", "Werebear", "Werewolf", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Throwing"]
+    },
+    {
+      "name": "Wizard",
+      "availableBaseClasses": ["Mage"],
+      "availableRaces": ["Aelfborn", "Elf", "Human", "Irekei", "Nephilim", "Shade Vampire"],
+      "availableDisciplines": ["Archmage", "Battle Magus", "Blade Weaver", "Belgosch", "Blood Prophet", "Commander", "Conjurer", "Enchanter", "Gorgoi", "Shroudborne", "Sun Dancer", "Traveler", "Undead Hunter", "Wyrmslayer"],
+      "availableMasteryRunes": ["Master of Daggers", "Master of Staves"]
+    }
+  ]
+}
