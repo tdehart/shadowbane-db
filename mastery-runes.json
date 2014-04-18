@@ -1,11 +1,48 @@
 {
-    "masteryRunes": [{
-        "name": "Master of Axes",
-        "cost": 5,
-        "availableClasses": {
-            "crusader": true
-        }
-    }, {
-        "name": "Master of Daggers"
-    }]
+  "masteryRunes": [
+    {
+      "name": "Master of Axes",
+      "cost": 5
+    },
+    {
+      "name": "Master of Daggers",
+      "cost": 5
+    },
+    {
+      "name": "Master of Great Axes",
+      "cost": 5
+    },
+    {
+      "name": "Master of Great Hammers",
+      "cost": 5
+    },
+    {
+      "name": "Master of Great Swords",
+      "cost": 5
+    },
+    {
+      "name": "Master of Hammers",
+      "cost": 5
+    },
+    {
+      "name": "Master of Pole Arms",
+      "cost": 5
+    },
+    {
+      "name": "Master of Spears",
+      "cost": 5
+    },
+    {
+      "name": "Master of Staves",
+      "cost": 5
+    },
+    {
+      "name": "Master of Swords",
+      "cost": 5
+    },
+    {
+      "name": "Master of Throwing",
+      "cost": 5
+    }
+  ]
 }
