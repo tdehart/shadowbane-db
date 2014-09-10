@@ -1,5 +1,4 @@
-{
-  "prestigeClasses": [
+[
     {
       "name": "Assassin",
       "availableBaseClasses": ["Mage", "Rogue"],
@@ -154,5 +153,4 @@
       "availableDisciplines": ["Archmage", "Battle Magus", "Blade Weaver", "Belgosch", "Blood Prophet", "Commander", "Conjurer", "Enchanter", "Gorgoi", "Shroudborne", "Sun Dancer", "Traveler", "Undead Hunter", "Wyrmslayer"],
       "availableMasteryRunes": ["Master of Daggers", "Master of Staves"]
     }
-  ]
-}
+]

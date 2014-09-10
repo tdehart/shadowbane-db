@@ -1,5 +1,5 @@
-{
-    "baseClasses": [{
+[
+    {
         "name": "Fighter",
         "grantedBaseStr": 5,
         "grantedBaseDex": 0,
@@ -27,5 +27,5 @@
         "grantedBaseCon": 0,
         "grantedBaseInt": 5,
         "grantedBaseSpi": 5
-    }]
-}
+    }
+]

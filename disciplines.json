@@ -1,5 +1,5 @@
-{
-    "disciplines": [{
+[
+    {
         "name": "Animator",
         "availableBaseClasses": ["Mage", "Healer", "Rogue"],
         "availableRaces": ["Aelfborn", "Dwarf", "Elf", "Human", "Shade"],
@@ -281,5 +281,5 @@
         "availableRaces": ["Aelfborn", "Aracoix", "Centaur", "Dwarf", "Elf", "Half Giant", "Human", "Nephilim", "Shades", "Vampire"],
         "availablePrestigeClasses": ["Assassin", "Barbarian", "Bard", "Crusader", "Huntress", "Necromancer", "Priest", "Ranger", "Sentinel", "Templar", "Thief", "Warrior", "Wizard"],
         "disciplinesProhibited": []
-    }]
-}
+    }
+]

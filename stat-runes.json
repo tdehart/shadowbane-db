@@ -1,5 +1,5 @@
-{
-    "statRunes": [{
+[    
+    {
         "name": "Enhanced Strength",
         "cost": 3,
         "category": "Strength",
@@ -279,5 +279,5 @@
         "requiredSpi": 120,
         "grantedBaseSpi": 10,
         "grantedMaxSpi": 40
-    }]
-}
+    }
+]

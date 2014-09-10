@@ -1,5 +1,4 @@
-{
-  "masteryRunes": [
+[
     {
       "name": "Master of Axes",
       "cost": 5
@@ -44,5 +43,4 @@
       "name": "Master of Throwing",
       "cost": 5
     }
-  ]
-}
+]

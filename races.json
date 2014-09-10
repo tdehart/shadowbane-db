@@ -1,5 +1,5 @@
-{
-    "races": [{
+[
+    {
         "name": "Aelfborn",
         "cost": 5,
         "healthBonus": 0,
@@ -424,5 +424,5 @@
                 "value": -25
             }]
         }]
-    }]
-}
+      }
+]

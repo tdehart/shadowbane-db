@@ -1,5 +1,5 @@
-{
-    "startingTraits": [{
+[
+    {
         "name": "Agile",
         "cost": 6,
         "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
@@ -924,5 +924,5 @@
                 "value": 5
             }]
         }]
-    }]
-}
+    }
+]
