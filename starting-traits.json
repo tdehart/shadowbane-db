@@ -1,928 +1,2204 @@
-[
-    {
-        "name": "Agile",
-        "cost": 6,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Dexterity",
-        "requiredDex": 40,
-        "grantedBaseDex": 5,
-        "grantedMaxDex": 5
-    }, {
-        "name": "Ambidexterity",
-        "cost": 12,
-        "requiredDex": 50,
-        "availableBaseClasses": ["Fighter"]
-    }, {
-        "name": "Blacksmith's Apprentice",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Apprentice",
-        "requiredStr": 40,
-        "grantedBaseStr": 10,
-        "grantedMaxStr": 10,
-        "grantedBaseDex": -5,
-        "grantedMaxDex": -5,
-        "grantedBaseInt": -5,
-        "grantedMaxInt": -5
-    }, {
-        "name": "Blessed",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "Holy",
-                "value": 5
-            }]
-        }],
-        "prohibitedRaces": ["Vampire"]
-    }, {
-        "name": "Blood of the Desert",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "Fire",
-                "value": 5
-            }]
-        }],
-        "prohibitedRaces": ["Vampire"]
-    }, {
-        "name": "Blood of the Dragon",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "Fire",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Irekei"]
-    }, {
-        "name": "Blood of the North",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "Cold",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Born in the Country",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "prohibitedRaces": ["Dwarf", "Irekei"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Staff",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Born of the Ethyri",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseSpi": 5,
-        "grantedMaxSpi": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Mana Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Human"]
-    }, {
-        "name": "Born of the Gwendannen",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseCon": 5,
-        "grantedMaxCon": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Stamina Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Human"]
-    }, {
-        "name": "Born of the Invorri",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseStr": 5,
-        "grantedMaxStr": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Health Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Human"]
-    }, {
-        "name": "Born of the Irydnu",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseInt": 5,
-        "grantedMaxInt": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Mana Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Human"]
-    }, {
-        "name": "Born of the Taripontor",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseDex": 5,
-        "grantedMaxDex": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Stamina Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Human"]
-    }, {
-        "name": "Bowyer Born",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Rogue"],
-        "category": "Childhood",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Crossbow",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Brawler",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter"],
-        "category": "Background",
-        "granted": [{
-            "skills": [
-                "Unarmed Combat"
-            ],
-            "skillPoints": [{
-                "name": "Unarmed Combat",
-                "value": 10
-            }]
-        }]
-    }, {
-        "name": "Brilliant Mind",
-        "cost": 12,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Intelligence",
-        "requiredInt": 50,
-        "grantedBaseInt": 10,
-        "grantedMaxInt": 10
-    }, {
-        "name": "Bruiser",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Hammer",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Changeling",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "Magic",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Clever",
-        "cost": 6,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Intelligence",
-        "requiredInt": 40,
-        "grantedBaseInt": 5,
-        "grantedMaxInt": 5
-    }, {
-        "name": "Dark Whispers",
-        "cost": 8,
-        "availableBaseClasses": ["Mage"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Sorcery",
-                "value": 5
-            }, {
-                "name": "Warding",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Divine Touch",
-        "cost": 8,
-        "availableBaseClasses": ["Healer"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Benediction",
-                "value": 5
-            }, {
-                "name": "Restoration",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Eyes of the Eagle",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Bow",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Faith of Ages",
-        "cost": 12,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Spirit",
-        "requiredSpi": 50,
-        "grantedBaseSpi": 10,
-        "grantedMaxSpi": 10
-    }, {
-        "name": "Fleet of Foot",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "requiredDex": 50,
-        "granted": [{
-            "effects": [{
-                "name": "Movement Rate",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Giant's Blood",
-        "cost": 14,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "requiredStr": 50,
-        "requiredCon": 40,
-        "grantedBaseStr": 10,
-        "grantedMaxStr": 15,
-        "grantedBaseCon": 5,
-        "grantedMaxCon": 10,
-        "grantedBaseInt": -5,
-        "grantedMaxInt": -10,
-        "requiredRaces": ["Aelfborn", "Human", "Shade"]
-    }, {
-        "name": "Healthy as an Ox",
-        "cost": 12,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Constitution",
-        "requiredCon": 50,
-        "grantedBaseCon": 10,
-        "grantedMaxCon": 10
-    }, {
-        "name": "Hearty",
-        "cost": 12,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Constitution",
-        "requiredCon": 40,
-        "grantedBaseCon": 5,
-        "grantedMaxCon": 5
-    }, {
-        "name": "Hero's Strength",
-        "cost": 12,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Strength",
-        "requiredStr": 50,
-        "grantedBaseStr": 10,
-        "grantedMaxStr": 10
-    }, {
-        "name": "Hunter",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Spear",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Increased Constitution",
-        "cost": 2,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Increase Maximum Constitution",
-        "grantedBaseCon": 1,
-        "grantedMaxCon": 3
-    }, {
-        "name": "Increased Dexterity",
-        "cost": 2,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Increase Maximum Dexterity",
-        "grantedBaseDex": 1,
-        "grantedMaxDex": 3
-    }, {
-        "name": "Increased Intelligence",
-        "cost": 2,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Increase Maximum Intelligence",
-        "grantedBaseInt": 1,
-        "grantedMaxInt": 3
-    }, {
-        "name": "Increased Spirit",
-        "cost": 2,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Increase Maximum Spirit",
-        "grantedBaseSpi": 1,
-        "grantedMaxSpi": 3
-    }, {
-        "name": "Increased Strength",
-        "cost": 2,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Increase Maximum Strength",
-        "grantedBaseStr": 1,
-        "grantedMaxStr": 3
-    }, {
-        "name": "Iron Will",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "mental",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Juggernaut",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "requiredRaces": ["Dwarf", "Half Giant", "Minotaur"],
-        "granted": [{
-            "resists": [{
-                "name": "crush",
-                "value": 5
-            }, {
-                "name": "pierce",
-                "value": 5
-            }, {
-                "name": "slash",
-                "value": 5
-            }],
-            "effects": [{
-                "name": "Movement Rate",
-                "value": -10
-            }]
-        }]
-    }, {
-        "name": "Knife-Fighter",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Dagger",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Knight's Squire",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Rogue"],
-        "category": "Mentor",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Medium Armour",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Lightning Reflexes",
-        "cost": 12,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Dexterity",
-        "requiredDex": 50,
-        "grantedBaseDex": 10,
-        "grantedMaxDex": 10
-    }, {
-        "name": "Lucky",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "effects": [{
-                "name": "Defense Bonus",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Mercenary",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Polearm",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Mighty",
-        "cost": 6,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Strength",
-        "requiredStr": 40,
-        "grantedBaseStr": 5,
-        "grantedMaxStr": 5
-    }, {
-        "name": "Military Training",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Rogue"],
-        "category": "Mentor",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Light Armour",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Precise",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "effects": [{
-                "name": "Attack Bonus",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Priest's Acolyte",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Apprentice",
-        "requiredSpi": 40,
-        "grantedBaseSpi": 10,
-        "grantedMaxSpi": 10,
-        "grantedBaseStr": -5,
-        "grantedMaxStr": -5,
-        "grantedBaseInt": -5,
-        "grantedMaxInt": -5
-    }, {
-        "name": "Proficient with Axes",
-        "cost": 10,
-        "availableBaseClasses": ["Healer", "Mage", "Rogue"],
-        "granted": [{
-            "skills": [
-                "Axe"
-            ]
-        }]
-    }, {
-        "name": "Proficient with Crossbows",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Rogue"],
-        "granted": [{
-            "skills": [
-                "Crossbow"
-            ]
-        }]
-    }, {
-        "name": "Proficient with Daggers",
-        "cost": 10,
-        "availableBaseClasses": ["Healer"],
-        "granted": [{
-            "skills": [
-                "Dagger"
-            ]
-        }]
-    }, {
-        "name": "Proficient with Hammers",
-        "cost": 10,
-        "availableBaseClasses": ["Mage", "Rogue"],
-        "granted": [{
-            "skills": [
-                "Hammer"
-            ]
-        }]
-    }, {
-        "name": "Proficient with Pole Arms",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "skills": [
-                "Polearm"
-            ]
-        }]
-    }, {
-        "name": "Proficient with Spears",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "skills": [
-                "Spear"
-            ]
-        }]
-    }, {
-        "name": "Proficient with Staves",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter"],
-        "granted": [{
-            "skills": [
-                "Staff"
-            ]
-        }]
-    }, {
-        "name": "Proficient with Swords",
-        "cost": 10,
-        "availableBaseClasses": ["Healer", "Mage"],
-        "granted": [{
-            "skills": [
-                "Sword"
-            ]
-        }]
-    }, {
-        "name": "Raised by Barbarians",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "prohibitedRaces": ["Dwarf", "Elf", "Irekei", "Minotaur"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Axe",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Raised by Centaurs",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "prohibitedRaces": ["Aracoix", "Centaur", "Elf", "Minotaur"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Spear",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Raised by Dwarves",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "prohibitedRaces": ["Dwarf", "Elf"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Hammer",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Raised by Elves",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "prohibitedRaces": ["Dwarf", "Elf", "Irekei", "Centaur"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Sword",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Raised by Thieves' Guild",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "prohibitedRaces": ["Dwarf"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Dagger",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Raised in the Woods",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Rogue"],
-        "category": "Childhood",
-        "prohibitedRaces": ["Dwarf", "Irekei"],
-        "granted": [{
-            "skillPoints": [{
-                "name": "Bow",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Scion of the Dar Khelegur",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseInt": 5,
-        "grantedMaxInt": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Mana Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Elf"]
-    }, {
-        "name": "Scion of the Gwaridorn",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseCon": 5,
-        "grantedMaxCon": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Health Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Elf"]
-    }, {
-        "name": "Scion of the Twathedilion",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Subrace",
-        "grantedBaseDex": 5,
-        "grantedMaxDex": 10,
-        "granted": [{
-            "effects": [{
-                "name": "Stamina Recovery Rate",
-                "value": 10
-            }]
-        }],
-        "requiredRaces": ["Elf"]
-    }, {
-        "name": "Sellsword",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Sword",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Sharpshooter",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Crossbow",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Shopkeeper's Apprentice",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Mentor",
-        "requiredInt": 50,
-        "granted": [{
-            "skills": [
-                "Bargaining"
-            ]
-        }]
-    }, {
-        "name": "Snake Handler",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "poison",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Sold to the Pits",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "granted": [{
-            "skills": [
-                "Unarmed Combat"
-            ],
-            "skillPoints": [{
-                "name": "Unarmed Combat",
-                "value": 10
-            }]
-        }]
-    }, {
-        "name": "Soldier Born",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Childhood",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Polearm",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Stormborn",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "granted": [{
-            "resists": [{
-                "name": "lightning",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Taint of Chaos",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "requiredRaces": ["Nephilim"],
-        "granted": [{
-            "effects": [{
-                "name": "Health Recovery Rate",
-                "value": 20
-            }, {
-                "name": "Mana Recovery Rate",
-                "value": 20
-            }, {
-                "name": "Stamina Recovery Rate",
-                "value": 20
-            }]
-        }]
-    }, {
-        "name": "Taint of Madness",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "requiredSpi": 50,
-        "granted": [{
-            "effects": [{
-                "name": "mana",
-                "value": 100
-            }, {
-                "name": "Mana Recovery Rate",
-                "value": 20
-            }]
-        }]
-    }, {
-        "name": "Taught by Blademaster",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter"],
-        "category": "Mentor",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Parry",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Taught by Master Thief",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Apprentice",
-        "requiredDex": 40,
-        "grantedBaseDex": 10,
-        "grantedMaxDex": 10,
-        "grantedBaseStr": -5,
-        "grantedMaxStr": -5,
-        "grantedBaseCon": -5,
-        "grantedMaxCon": -5
-    }, {
-        "name": "Tireless",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "requiredCon": 50,
-        "granted": [{
-            "effects": [{
-                "name": "Stamina Recovery Rate",
-                "value": 20
-            }, {
-                "name": "Max Stamina",
-                "value": 30
-            }]
-        }]
-    }, {
-        "name": "Tough as Nails",
-        "cost": 10,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "requiredCon": 50,
-        "granted": [{
-            "effects": [{
-                "name": "Health Recovery Rate",
-                "value": 20
-            }, {
-                "name": "Max Health",
-                "value": 100
-            }]
-        }]
-    }, {
-        "name": "Tough Hide",
-        "cost": 12,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "prohibitedRaces": ["Dwarf"],
-        "granted": [{
-            "resists": [{
-                "name": "crush",
-                "value": 5
-            }, {
-                "name": "pierce",
-                "value": 5
-            }, {
-                "name": "slash",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Trained by Master-of-Arms",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer"],
-        "category": "Mentor",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Block",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Traveling Performer",
-        "cost": 4,
-        "availableBaseClasses": ["Rogue"],
-        "category": "Mentor",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Dodge",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "True Faith",
-        "cost": 6,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Spirit",
-        "requiredSpi": 40,
-        "grantedBaseSpi": 5,
-        "grantedMaxSpi": 5
-    }, {
-        "name": "Wanderer",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Staff",
-                "value": 5
-            }]
-        }]
-    }, {
-        "name": "Warlord's Page",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Apprentice",
-        "requiredCon": 40,
-        "grantedBaseCon": 10,
-        "grantedMaxCon": 10,
-        "grantedBaseSpi": -5,
-        "grantedMaxSpi": -5,
-        "grantedBaseDex": -5,
-        "grantedMaxDex": -5
-    }, {
-        "name": "Witch Sight",
-        "cost": 6,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "prohibitedRaces": ["Shade"],
-        "granted": [{
-            "powers": [{
-                "name": "seeInvis",
-                "grantedRank": 15,
-                "maxRank": 15
-            }]
-        }]
-    }, {
-        "name": "Wizard's Apprentice",
-        "cost": 8,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Apprentice",
-        "requiredInt": 40,
-        "grantedBaseInt": 10,
-        "grantedMaxInt": 10,
-        "grantedBaseSpi": -5,
-        "grantedMaxSpi": -5,
-        "grantedBaseCon": -5,
-        "grantedMaxCon": -5
-    }, {
-        "name": "Woodsman",
-        "cost": 4,
-        "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
-        "category": "Background",
-        "granted": [{
-            "skillPoints": [{
-                "name": "Axe",
-                "value": 5
-            }]
-        }]
-    }
-]
+[{
+  "name": "Agile",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Dexterity",
+  "cost": 6,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 5,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 5,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 40,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Ambidexterity",
+  "availableBaseClasses": ["Fighter"],
+  "cost": 12,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 50,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Blacksmith's Apprentice",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Apprentice",
+  "cost": 8,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": -5,
+  "grantedBaseInt": -5,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 10,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": -5,
+  "grantedMaxInt": -5,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 10,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 40
+}, {
+  "name": "Blessed",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 4,
+  "granted": [{
+    "resists": [{
+      "name": "Holy",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": ["Vampire"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Blood of the Desert",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 4,
+  "granted": [{
+    "resists": [{
+      "name": "Fire",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": ["Vampire"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Blood of the Dragon",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 8,
+  "granted": [{
+    "resists": [{
+      "name": "Fire",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Irekei"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Blood of the North",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 4,
+  "granted": [{
+    "resists": [{
+      "name": "Cold",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Born in the Country",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Staff",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": ["Dwarf", "Irekei"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Born of the Ethyri",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Mana Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 5,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 10,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Human"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Born of the Gwendannen",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Stamina Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 5,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 10,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Human"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Born of the Invorri",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Health Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 5,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 10,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Human"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Born of the Irydnu",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Mana Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 5,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 10,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Human"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Born of the Taripontor",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Stamina Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 5,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 10,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Human"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Bowyer Born",
+  "availableBaseClasses": ["Fighter", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Crossbow",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Brawler",
+  "availableBaseClasses": ["Fighter"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skills": ["Unarmed Combat"],
+    "skillPoints": [{
+      "name": "Unarmed Combat",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "name": "Brilliant Mind",
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Intelligence",
+  "cost": 12,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 10,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 10,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 50,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Hammer",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Bruiser",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 4,
+  "granted": [{
+    "resists": [{
+      "name": "Magic",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Changeling",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Intelligence",
+  "cost": 6,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 5,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 5,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Clever",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 40,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Mage"],
+  "cost": 8,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Sorcery",
+      "value": 5
+    }, {
+      "name": "Warding",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Dark Whispers",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Healer"],
+  "cost": 8,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Benediction",
+      "value": 5
+    }, {
+      "name": "Restoration",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Divine Touch",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Bow",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Eyes of the Eagle",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Spirit",
+  "cost": 12,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 10,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 10,
+  "grantedMaxStr": 0,
+  "name": "Faith of Ages",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 50,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Movement Rate",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Fleet of Foot",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 50,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 14,
+  "grantedBaseCon": 5,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": -5,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 10,
+  "grantedMaxCon": 10,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": -10,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 15,
+  "name": "Giant's Blood",
+  "prohibitedRaces": [],
+  "requiredCon": 40,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Aelfborn", "Human", "Shade"],
+  "requiredSpi": 0,
+  "requiredStr": 50
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Constitution",
+  "cost": 12,
+  "grantedBaseCon": 10,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 10,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Healthy as an Ox",
+  "prohibitedRaces": [],
+  "requiredCon": 50,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Constitution",
+  "cost": 12,
+  "grantedBaseCon": 5,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 5,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Hearty",
+  "prohibitedRaces": [],
+  "requiredCon": 40,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Strength",
+  "cost": 12,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 10,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 10,
+  "name": "Hero's Strength",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 50
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Spear",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Hunter",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Increase Maximum Constitution",
+  "cost": 2,
+  "grantedBaseCon": 1,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 3,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Increased Constitution",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Increase Maximum Dexterity",
+  "cost": 2,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 1,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 3,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Increased Dexterity",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Increase Maximum Intelligence",
+  "cost": 2,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 1,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 3,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Increased Intelligence",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Increase Maximum Spirit",
+  "cost": 2,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 1,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 3,
+  "grantedMaxStr": 0,
+  "name": "Increased Spirit",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Increase Maximum Strength",
+  "cost": 2,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 1,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 3,
+  "name": "Increased Strength",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 4,
+  "granted": [{
+    "resists": [{
+      "name": "mental",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Iron Will",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 8,
+  "granted": [{
+    "resists": [{
+      "name": "crush",
+      "value": 5
+    }, {
+      "name": "pierce",
+      "value": 5
+    }, {
+      "name": "slash",
+      "value": 5
+    }],
+    "effects": [{
+      "name": "Movement Rate",
+      "value": -10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Juggernaut",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Dwarf", "Half Giant", "Minotaur"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Dagger",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Knife-Fighter",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Rogue"],
+  "category": "Mentor",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Medium Armour",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Knight's Squire",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Dexterity",
+  "cost": 12,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 10,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 10,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Lightning Reflexes",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 50,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 8,
+  "granted": [{
+    "effects": [{
+      "name": "Defense Bonus",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Lucky",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Polearm",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Mercenary",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Strength",
+  "cost": 6,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 5,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 5,
+  "name": "Mighty",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 40
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Rogue"],
+  "category": "Mentor",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Light Armour",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Military Training",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 8,
+  "granted": [{
+    "effects": [{
+      "name": "Attack Bonus",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Precise",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Apprentice",
+  "cost": 8,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": -5,
+  "grantedBaseSpi": 10,
+  "grantedBaseStr": -5,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": -5,
+  "grantedMaxSpi": 10,
+  "grantedMaxStr": -5,
+  "name": "Priest's Acolyte",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 40,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Axe"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Axes",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Crossbow"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Crossbows",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Healer"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Dagger"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Daggers",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Hammer"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Hammers",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Polearm"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Pole Arms",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Spear"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Spears",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Staff"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Staves",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Healer", "Mage"],
+  "cost": 10,
+  "granted": [{
+    "skills": ["Sword"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Proficient with Swords",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Axe",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Raised by Barbarians",
+  "prohibitedRaces": ["Dwarf", "Elf", "Irekei", "Minotaur"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Spear",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Raised by Centaurs",
+  "prohibitedRaces": ["Aracoix", "Centaur", "Elf", "Minotaur"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Hammer",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Raised by Dwarves",
+  "prohibitedRaces": ["Dwarf", "Elf"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Sword",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Raised by Elves",
+  "prohibitedRaces": ["Dwarf", "Elf", "Irekei", "Centaur"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Dagger",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Raised by Thieves' Guild",
+  "prohibitedRaces": ["Dwarf"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Bow",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Raised in the Woods",
+  "prohibitedRaces": ["Dwarf", "Irekei"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Mana Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 5,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 10,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Scion of the Dar Khelegur",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Elf"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Health Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 5,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 10,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Scion of the Gwaridorn",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Elf"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Subrace",
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Stamina Recovery Rate",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 5,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 10,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Scion of the Twathedilion",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Elf"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Sword",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Sellsword",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Crossbow",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Sharpshooter",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Mentor",
+  "cost": 4,
+  "granted": [{
+    "skills": ["Bargaining"]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Shopkeeper's Apprentice",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 50,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 4,
+  "granted": [{
+    "resists": [{
+      "name": "poison",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Snake Handler",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skills": ["Unarmed Combat"],
+    "skillPoints": [{
+      "name": "Unarmed Combat",
+      "value": 10
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Sold to the Pits",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Childhood",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Polearm",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Soldier Born",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 4,
+  "granted": [{
+    "resists": [{
+      "name": "lightning",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Stormborn",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Health Recovery Rate",
+      "value": 20
+    }, {
+      "name": "Mana Recovery Rate",
+      "value": 20
+    }, {
+      "name": "Stamina Recovery Rate",
+      "value": 20
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Taint of Chaos",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": ["Nephilim"],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "mana",
+      "value": 100
+    }, {
+      "name": "Mana Recovery Rate",
+      "value": 20
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Taint of Madness",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 50,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter"],
+  "category": "Mentor",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Parry",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Taught by Blademaster",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Apprentice",
+  "cost": 8,
+  "grantedBaseCon": -5,
+  "grantedBaseDex": 10,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": -5,
+  "grantedMaxCon": -5,
+  "grantedMaxDex": 10,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": -5,
+  "name": "Taught by Master Thief",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 40,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Stamina Recovery Rate",
+      "value": 20
+    }, {
+      "name": "Max Stamina",
+      "value": 30
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Tireless",
+  "prohibitedRaces": [],
+  "requiredCon": 50,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 10,
+  "granted": [{
+    "effects": [{
+      "name": "Health Recovery Rate",
+      "value": 20
+    }, {
+      "name": "Max Health",
+      "value": 100
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Tough as Nails",
+  "prohibitedRaces": [],
+  "requiredCon": 50,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 12,
+  "granted": [{
+    "resists": [{
+      "name": "crush",
+      "value": 5
+    }, {
+      "name": "pierce",
+      "value": 5
+    }, {
+      "name": "slash",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Tough Hide",
+  "prohibitedRaces": ["Dwarf"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer"],
+  "category": "Mentor",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Block",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Trained by Master-of-Arms",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Rogue"],
+  "category": "Mentor",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Dodge",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Traveling Performer",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Spirit",
+  "cost": 6,
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 5,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 5,
+  "grantedMaxStr": 0,
+  "name": "True Faith",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 40,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Staff",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Wanderer",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Apprentice",
+  "cost": 8,
+  "grantedBaseCon": 10,
+  "grantedBaseDex": -5,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": -5,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 10,
+  "grantedMaxDex": -5,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": -5,
+  "grantedMaxStr": 0,
+  "name": "Warlord's Page",
+  "prohibitedRaces": [],
+  "requiredCon": 40,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "cost": 6,
+  "granted": [{
+    "powers": [{
+      "name": "seeInvis",
+      "grantedRank": 15,
+      "maxRank": 15
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Witch Sight",
+  "prohibitedRaces": ["Shade"],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Apprentice",
+  "cost": 8,
+  "grantedBaseCon": -5,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 10,
+  "grantedBaseSpi": -5,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": -5,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 10,
+  "grantedMaxSpi": -5,
+  "grantedMaxStr": 0,
+  "name": "Wizard's Apprentice",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 40,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}, {
+  "availableBaseClasses": ["Fighter", "Healer", "Mage", "Rogue"],
+  "category": "Background",
+  "cost": 4,
+  "granted": [{
+    "skillPoints": [{
+      "name": "Axe",
+      "value": 5
+    }]
+  }],
+  "grantedBaseCon": 0,
+  "grantedBaseDex": 0,
+  "grantedBaseInt": 0,
+  "grantedBaseSpi": 0,
+  "grantedBaseStr": 0,
+  "grantedMaxCon": 0,
+  "grantedMaxDex": 0,
+  "grantedMaxInt": 0,
+  "grantedMaxSpi": 0,
+  "grantedMaxStr": 0,
+  "name": "Woodsman",
+  "prohibitedRaces": [],
+  "requiredCon": 0,
+  "requiredDex": 0,
+  "requiredInt": 0,
+  "requiredRaces": [],
+  "requiredSpi": 0,
+  "requiredStr": 0
+}]
